@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libgdx-utils-box2d-0.13.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dermetfan.libgdx-utils/libgdx-utils-box2d/0.13.2/cb22af5b48e5dbe82a4f0704e5ddf360e1d1c9d6/libgdx-utils-box2d-0.13.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dermetfan.libgdx-utils/libgdx-utils-box2d/0.13.2/bd2de7de45bd0fd0f638257895be9285b805a878/libgdx-utils-box2d-0.13.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dermetfan.libgdx-utils/libgdx-utils-box2d/0.13.2/bd2de7de45bd0fd0f638257895be9285b805a878/libgdx-utils-box2d-0.13.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

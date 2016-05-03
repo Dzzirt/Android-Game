@@ -1,0 +1,279 @@
+
+textures.png
+size: 2048,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/Untitled-1
+  rotate: false
+  xy: 260, 432
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+gfx/atk_btn
+  rotate: false
+  xy: 1862, 917
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+gfx/background
+  rotate: false
+  xy: 2, 315
+  size: 256, 449
+  orig: 256, 449
+  offset: 0, 0
+  index: -1
+gfx/badlogic
+  rotate: false
+  xy: 1604, 766
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+gfx/cloud
+  rotate: false
+  xy: 448, 728
+  size: 52, 36
+  orig: 52, 36
+  offset: 0, 0
+  index: -1
+gfx/door
+  rotate: false
+  xy: 1969, 973
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+gfx/elisaStop0
+  rotate: false
+  xy: 367, 593
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+spriter/Stop/elisaStop0
+  rotate: false
+  xy: 367, 593
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+gfx/gound-level1
+  rotate: false
+  xy: 2, 766
+  size: 1600, 256
+  orig: 1600, 256
+  offset: 0, 0
+  index: -1
+gfx/ground-trap
+  rotate: false
+  xy: 406, 636
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+gfx/jump_arrow
+  rotate: false
+  xy: 148, 208
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+gfx/ladder-level1
+  rotate: false
+  xy: 260, 636
+  size: 144, 128
+  orig: 144, 128
+  offset: 0, 0
+  index: -1
+gfx/left_arrow
+  rotate: false
+  xy: 260, 529
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+gfx/platform-2t-level1
+  rotate: false
+  xy: 2014, 964
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+gfx/platform-3t-level1
+  rotate: false
+  xy: 568, 748
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+gfx/platform3t-2-level1
+  rotate: false
+  xy: 568, 730
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+gfx/platform4t-2-level1
+  rotate: false
+  xy: 502, 748
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
+gfx/platform4t-level1
+  rotate: false
+  xy: 502, 730
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
+gfx/platform5t-2-level1
+  rotate: false
+  xy: 1862, 899
+  size: 80, 16
+  orig: 80, 16
+  offset: 0, 0
+  index: -1
+gfx/platform5t-3-level1
+  rotate: false
+  xy: 148, 190
+  size: 80, 16
+  orig: 80, 16
+  offset: 0, 0
+  index: -1
+gfx/platform5t-level1
+  rotate: false
+  xy: 260, 511
+  size: 80, 16
+  orig: 80, 16
+  offset: 0, 0
+  index: -1
+gfx/small-column
+  rotate: false
+  xy: 406, 654
+  size: 40, 110
+  orig: 40, 110
+  offset: 0, 0
+  index: -1
+gfx/wall-level1
+  rotate: false
+  xy: 2, 43
+  size: 144, 270
+  orig: 144, 270
+  offset: 0, 0
+  index: -1
+spriter/Death/elisaDeath0
+  rotate: false
+  xy: 106, 8
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+spriter/Death/elisaDeath1
+  rotate: false
+  xy: 300, 479
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+spriter/Jump/elisaJump0
+  rotate: false
+  xy: 260, 464
+  size: 38, 45
+  orig: 38, 45
+  offset: 0, 0
+  index: -1
+spriter/Jump/elisaJump1
+  rotate: false
+  xy: 1862, 852
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1
+spriter/Jump/elisaJump3
+  rotate: false
+  xy: 1862, 852
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1
+spriter/Jump/elisaJump2
+  rotate: false
+  xy: 148, 143
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun0
+  rotate: false
+  xy: 1862, 810
+  size: 23, 40
+  orig: 23, 40
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun1
+  rotate: false
+  xy: 72, 2
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun2
+  rotate: false
+  xy: 448, 686
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun3
+  rotate: false
+  xy: 148, 99
+  size: 20, 42
+  orig: 20, 42
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun4
+  rotate: false
+  xy: 189, 148
+  size: 22, 40
+  orig: 22, 40
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun5
+  rotate: false
+  xy: 2, 2
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun6
+  rotate: false
+  xy: 2014, 982
+  size: 27, 40
+  orig: 27, 40
+  offset: 0, 0
+  index: -1
+spriter/Run/elisaRun7
+  rotate: false
+  xy: 1903, 856
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+spriter/Stop/elisaStop1
+  rotate: false
+  xy: 1969, 931
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+spriter/Stop/elisaStop2
+  rotate: false
+  xy: 37, 2
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1

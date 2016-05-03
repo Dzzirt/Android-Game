@@ -1,0 +1,19 @@
+{
+	"player": {
+		"xVel": 1.8,
+		"yVel": 3.0,
+		"hp": 100
+	},
+	"enemy": {
+		"xVel": 1.8,
+		"yVel": 1.0
+	},
+	"horPlatform": {
+		"xVel": 1.0,
+		"yVel": 0
+	},
+	"vertPlatform": {
+		"xVel": 0,
+		"yVel": 1.0
+	}
+}

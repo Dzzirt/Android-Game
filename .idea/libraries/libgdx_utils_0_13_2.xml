@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libgdx-utils-0.13.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dermetfan.libgdx-utils/libgdx-utils/0.13.2/62b7ab4f643c6b396292d1f2387c0099d28102ba/libgdx-utils-0.13.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dermetfan.libgdx-utils/libgdx-utils/0.13.2/7ca29008c89e9ac2b266ecb41d7201e80dedadc9/libgdx-utils-0.13.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dermetfan.libgdx-utils/libgdx-utils/0.13.2/7ca29008c89e9ac2b266ecb41d7201e80dedadc9/libgdx-utils-0.13.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
