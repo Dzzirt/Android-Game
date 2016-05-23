@@ -35,7 +35,6 @@ public class UiUpdatePositionSystem extends IteratingSystem {
 
     @Override
     protected void inserted(int entityId) {
-        super.inserted(entityId);
         Vector3 camPos = cameraManager.getCamera().position;
         Transform btnTransform = transformCmp.get(entityId);
         Vector2 dist = new Vector2(camPos.x - btnTransform.getX(), camPos.y - btnTransform.getY());

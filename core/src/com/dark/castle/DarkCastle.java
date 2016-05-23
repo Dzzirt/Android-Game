@@ -10,6 +10,7 @@ import com.badlogic.gdx.utils.JsonReader;
 import com.badlogic.gdx.utils.JsonValue;
 import com.dark.castle.Systems.CameraTrackingSystem;
 import com.dark.castle.Systems.GameConfigManager;
+import com.dark.castle.Systems.PlatformMovingSystem;
 import com.dark.castle.Systems.PlayerMovementSystem;
 import com.dark.castle.Systems.UiUpdatePositionSystem;
 import com.dark.castle.Systems.UserInputSystem;
@@ -29,7 +30,6 @@ public class DarkCastle extends ApplicationAdapter {
 
 	@Override
 	public void create () {
-		World.setVelocityThreshold(0);
 		batch = new SpriteBatch();
 		SceneLoader.SceneParameter parameter = new SceneLoader.SceneParameter();
 		parameter.config.addSystem(CameraTrackingSystem.class,2);
@@ -37,19 +37,10 @@ public class DarkCastle extends ApplicationAdapter {
 		parameter.config.addSystem(PlayerMovementSystem.class, 1);
 		parameter.config.addSystem(UiUpdatePositionSystem.class, 0);
 		parameter.config.addSystem(GameConfigManager.class, 0);
+		parameter.config.addSystem(PlatformMovingSystem.class, 0);
 		parameter.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
 		manager = new VisAssetManager(batch);
 		scene = manager.loadSceneNow("scene/main.scene", parameter);
-		Json json = new Json();
-		try {
-			JsonValue val = new JsonReader().parse(new FileInputStream("config.json"));
-			float vel = val.get("Player").getFloat("Velocity");
-			System.out.println(vel);
-
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-
 
 	}
 

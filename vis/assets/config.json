@@ -1,19 +1,26 @@
 {
+	"world": {
+		"width": 32,
+		"height": 13.5
+	},
 	"player": {
 		"xVel": 1.8,
-		"yVel": 1.0,
+		"yVel": 3,
 		"hp": 100
 	},
 	"enemy": {
 		"xVel": 1.8,
 		"yVel": 1.0
 	},
-	"horPlatform": {
+	"hPlatform1": {
 		"xVel": 1.0,
-		"yVel": 0
+		"yVel": 0,
+		"distance": 1.5
 	},
-	"vertPlatform": {
+
+	"vPlatform1": {
 		"xVel": 0,
-		"yVel": 1.0
+		"yVel": 1.0,
+		"distance": 5.0
 	}
 }

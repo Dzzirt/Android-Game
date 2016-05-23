@@ -1,8 +1,4 @@
 {
-	"world": {
-		"width": 32,
-		"height": 13.5
-	},
 	"player": {
 		"xVel": 1.8,
 		"yVel": 3,

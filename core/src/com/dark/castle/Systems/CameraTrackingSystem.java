@@ -4,6 +4,7 @@ import com.artemis.BaseSystem;
 import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.math.Vector2;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisPolygon;
 import com.kotcrab.vis.runtime.system.CameraManager;
@@ -19,8 +20,11 @@ public class CameraTrackingSystem extends BaseSystem {
     private OrthographicCamera camera;
     private VisIDManager idManager;
 
-
+    private Vector2 worldBounds;
     public CameraTrackingSystem() {
+        float width = GameConfigManager.cfg.get("world").get("width").asFloat();
+        float height = GameConfigManager.cfg.get("world").get("height").asFloat();
+        worldBounds = new Vector2(width, height);
     }
 
     @Override
@@ -42,11 +46,11 @@ public class CameraTrackingSystem extends BaseSystem {
         if (camera.position.x - camera.viewportWidth / 2.f < 0) {
             camera.position.x = camera.viewportWidth / 2.f;
         }
-        if (camera.position.x + camera.viewportWidth / 2.f > 16) {
-            camera.position.x = 16f - camera.viewportWidth / 2.f;
+        if (camera.position.x + camera.viewportWidth / 2.f > worldBounds.x) {
+            camera.position.x = worldBounds.x - camera.viewportWidth / 2.f;
         }
-        if (camera.position.y + camera.viewportHeight / 2.f > 5) {
-            camera.position.y = 5 - camera.viewportWidth / 2.f;
+        if (camera.position.y + camera.viewportHeight / 2.f > worldBounds.y) {
+            camera.position.y = worldBounds.y - camera.viewportWidth / 2.f;
         }
     }
 }

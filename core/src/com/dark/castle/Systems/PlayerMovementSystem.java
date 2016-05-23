@@ -146,7 +146,6 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
                     playerBody.getWorldCenter(),
                     true);
             jumpTimeout = 15;
-            System.out.println("jump");
         }
         if (jumpTimeout > 0) {
             jumpTimeout--;
