@@ -23,7 +23,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class DarkCastle extends ApplicationAdapter {
-
+	
 	SpriteBatch batch;
 	VisAssetManager manager;
 	Scene scene;

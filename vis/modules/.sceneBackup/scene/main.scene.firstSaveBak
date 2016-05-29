@@ -53,7 +53,7 @@
       "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 4,
+  "activeLayerId": 1,
   "groupIds": [
     {
       "1": "background",
@@ -347,7 +347,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -356,7 +358,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         },
         {
@@ -409,7 +411,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -418,7 +422,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         }
       ],
@@ -468,7 +472,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -477,7 +483,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         }
       ],
@@ -527,7 +533,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -536,7 +544,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         },
         {
@@ -589,7 +597,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -598,7 +608,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         },
         {
@@ -651,7 +661,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -660,7 +672,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         }
       ],
@@ -710,7 +722,9 @@
         },
         {
           "groupIds": [
-            1
+            1,
+            24,
+            31
           ],
           "@class": "VisGroup"
         },
@@ -719,7 +733,7 @@
           "@class": "VisUUID"
         },
         {
-          "zIndex": 0,
+          "zIndex": 4,
           "@class": "Renderable"
         }
       ],
@@ -3117,8 +3131,8 @@
     {
       "components": [
         {
-          "x": 12.055943,
-          "y": 4.1446047,
+          "x": 12.1339035,
+          "y": 4.5202727,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -3153,11 +3167,11 @@
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 4,
+          "layerId": 2,
           "@class": "Layer"
         },
         {
-          "uuid": "2dd2ad03-386e-4598-bfd2-0d97d2128198",
+          "uuid": "a64bde61-6501-4deb-9ca6-4fce4482767c",
           "@class": "VisUUID"
         },
         {
@@ -3167,43 +3181,43 @@
         {
           "vertices": [
             {
-              "x": 12.055943,
-              "y": 4.1446047,
+              "x": 12.1339035,
+              "y": 4.5202727,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 12.695943,
-              "y": 4.1446047,
+              "x": 12.773904,
+              "y": 4.5202727,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 12.695943,
-              "y": 4.3046045,
+              "x": 12.773904,
+              "y": 4.6802726,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 12.055943,
-              "y": 4.3046045,
+              "x": 12.1339035,
+              "y": 4.6802726,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 12.055943,
-                "y": 4.3046045
+                "x": 12.1339035,
+                "y": 4.6802726
               },
               {
-                "x": 12.055943,
-                "y": 4.1446047
+                "x": 12.1339035,
+                "y": 4.5202727
               },
               {
-                "x": 12.695943,
-                "y": 4.1446047
+                "x": 12.773904,
+                "y": 4.5202727
               },
               {
-                "x": 12.695943,
-                "y": 4.3046045
+                "x": 12.773904,
+                "y": 4.6802726
               }
             ]
           ],
@@ -3352,8 +3366,8 @@
     {
       "components": [
         {
-          "x": 11.0553,
-          "y": 1.766,
+          "x": 11.168469,
+          "y": 1.7754309,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -3405,43 +3419,43 @@
         {
           "vertices": [
             {
-              "x": 11.0553,
-              "y": 1.766,
+              "x": 11.168469,
+              "y": 1.7754309,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 11.6953,
-              "y": 1.766,
+              "x": 11.80847,
+              "y": 1.7754309,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 11.6953,
-              "y": 1.926,
+              "x": 11.80847,
+              "y": 1.9354309,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 11.0553,
-              "y": 1.926,
+              "x": 11.168469,
+              "y": 1.9354309,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 11.0553,
-                "y": 1.926
+                "x": 11.168469,
+                "y": 1.9354309
               },
               {
-                "x": 11.0553,
-                "y": 1.766
+                "x": 11.168469,
+                "y": 1.7754309
               },
               {
-                "x": 11.6953,
-                "y": 1.766
+                "x": 11.80847,
+                "y": 1.7754309
               },
               {
-                "x": 11.6953,
-                "y": 1.926
+                "x": 11.80847,
+                "y": 1.9354309
               }
             ]
           ],
@@ -3590,8 +3604,8 @@
     {
       "components": [
         {
-          "x": 0.15077133,
-          "y": 0.85423005,
+          "x": 0.005161278,
+          "y": 0.8643999,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 90.0,
@@ -3649,43 +3663,43 @@
         {
           "vertices": [
             {
-              "x": -0.009228736,
-              "y": 0.85423005,
+              "x": -0.15483886,
+              "y": 0.8643999,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 0.15077133,
-              "y": 0.85423005,
+              "x": 0.005161278,
+              "y": 0.8643999,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 0.14663342,
-              "y": 4.049254,
+              "x": 0.0010233596,
+              "y": 4.059426,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": -0.009228736,
-              "y": 1.6542301,
+              "x": -0.15483886,
+              "y": 1.6643994,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": -0.009228736,
-                "y": 1.6542301
+                "x": -0.15483886,
+                "y": 1.6643994
               },
               {
-                "x": -0.009228736,
-                "y": 0.85423005
+                "x": -0.15483886,
+                "y": 0.8643999
               },
               {
-                "x": 0.15077133,
-                "y": 0.85423005
+                "x": 0.005161278,
+                "y": 0.8643999
               },
               {
-                "x": 0.14663342,
-                "y": 4.049254
+                "x": 0.0010233596,
+                "y": 4.059426
               }
             ]
           ],
@@ -3772,8 +3786,8 @@
     {
       "components": [
         {
-          "x": 0.15077133,
-          "y": 1.6442635,
+          "x": 0.005161278,
+          "y": 1.6544334,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 90.0,
@@ -4326,8 +4340,8 @@
     {
       "components": [
         {
-          "x": 0.1508,
-          "y": 2.45,
+          "x": 0.005189948,
+          "y": 2.4601698,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 90.0,
@@ -4572,8 +4586,8 @@
     {
       "components": [
         {
-          "x": 0.1508,
-          "y": 3.25,
+          "x": 0.005189948,
+          "y": 3.26017,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 90.0,
@@ -4634,11 +4648,124 @@
     {
       "components": [
         {
-          "x": 16.164001,
-          "y": 0.8435035,
+          "x": 16.005938,
+          "y": 1.9400029,
           "scaleX": 1.0,
           "scaleY": 1.0,
-          "rotation": 90.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.72,
+          "originY": 1.35,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/wall-level1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": true,
+          "flipY": false,
+          "width": 1.44,
+          "height": 2.7,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 2,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "8cd3b874-a5a8-4d99-8027-447dd8d5103a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.110403,
+          "y": 0.85649544,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.2,
+          "originY": 0.55,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/small-column.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.4,
+          "height": 1.1,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "306895bc-2a9c-4ed8-9370-683d3611183b",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.96918,
+          "y": 4.6250453,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
           "@class": "Transform"
         },
         {
@@ -4657,7 +4784,7 @@
         },
         {
           "asset": {
-            "relativePath": "gfx/platform5t-3-level1.png",
+            "relativePath": "gfx/platform3t-2-level1.png",
             "@class": "TextureRegionAsset"
           },
           "@class": "AssetReference"
@@ -4665,7 +4792,7 @@
         {
           "flipX": false,
           "flipY": false,
-          "width": 0.8,
+          "width": 0.48,
           "height": 0.16,
           "@class": "ProtoVisSprite"
         },
@@ -4675,12 +4802,12 @@
         },
         {
           "groupIds": [
-            20
+            30
           ],
           "@class": "VisGroup"
         },
         {
-          "uuid": "70b85fc6-ff03-4b3e-ae60-0a3f3455b3fa",
+          "uuid": "a0c1a7d9-139d-4932-b1b5-a686cf4b4dfb",
           "@class": "VisUUID"
         },
         {
@@ -4688,48 +4815,45 @@
           "@class": "Renderable"
         },
         {
-          "@class": "VisID"
-        },
-        {
           "vertices": [
             {
-              "x": 16.004,
-              "y": 0.8435035,
+              "x": 16.96918,
+              "y": 4.6250453,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 16.164001,
-              "y": 0.8435035,
+              "x": 17.449179,
+              "y": 4.6250453,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 16.164001,
-              "y": 1.6435034,
+              "x": 17.449179,
+              "y": 4.785045,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 16.018505,
-              "y": 4.043505,
+              "x": 16.96918,
+              "y": 4.785045,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 16.018505,
-                "y": 4.043505
+                "x": 16.96918,
+                "y": 4.785045
               },
               {
-                "x": 16.004,
-                "y": 0.8435035
+                "x": 16.96918,
+                "y": 4.6250453
               },
               {
-                "x": 16.164001,
-                "y": 0.8435035
+                "x": 17.449179,
+                "y": 4.6250453
               },
               {
-                "x": 16.164001,
-                "y": 1.6435034
+                "x": 17.449179,
+                "y": 4.785045
               }
             ]
           ],
@@ -4759,16 +4883,16 @@
     {
       "components": [
         {
-          "x": 16.164001,
-          "y": 1.633537,
+          "x": 16.866583,
+          "y": 0.8644149,
           "scaleX": 1.0,
           "scaleY": 1.0,
-          "rotation": 90.0,
+          "rotation": 0.0,
           "@class": "Transform"
         },
         {
-          "originX": 0.0,
-          "originY": 0.0,
+          "originX": 0.2,
+          "originY": 0.55,
           "@class": "Origin"
         },
         {
@@ -4782,7 +4906,7 @@
         },
         {
           "asset": {
-            "relativePath": "gfx/platform5t-3-level1.png",
+            "relativePath": "gfx/small-column.png",
             "@class": "TextureRegionAsset"
           },
           "@class": "AssetReference"
@@ -4790,154 +4914,21 @@
         {
           "flipX": false,
           "flipY": false,
-          "width": 0.8,
-          "height": 0.16,
+          "width": 0.4,
+          "height": 1.1,
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 2,
+          "layerId": 1,
           "@class": "Layer"
         },
         {
-          "groupIds": [
-            20
-          ],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "08922b6c-20e9-4188-8541-f4e8e7ec0396",
+          "uuid": "637f653c-5cc7-43ba-8e30-5ae95d180587",
           "@class": "VisUUID"
         },
         {
           "zIndex": 0,
           "@class": "Renderable"
-        },
-        {
-          "@class": "VisID"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 16.16403,
-          "y": 2.4392738,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "rotation": 90.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 1.0
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/platform5t-3-level1.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 0.8,
-          "height": 0.16,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 2,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [
-            20
-          ],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "723022f6-e567-4de7-840f-e6426f6eebd5",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "@class": "VisID"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 16.16403,
-          "y": 3.2392735,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "rotation": 90.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 1.0
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/platform5t-3-level1.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 0.8,
-          "height": 0.16,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 2,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [
-            20
-          ],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "974e4e8e-247a-4c69-a54b-d18a7427de93",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "@class": "VisID"
         }
       ],
       "@class": "EntityScheme"
@@ -5449,126 +5440,6 @@
           "@class": "VisPolygon"
         },
         {
-          "bodyType": "DynamicBody",
-          "friction": 1.0,
-          "density": 1.0,
-          "restitution": 0.0,
-          "sensor": false,
-          "gravityScale": 1.0,
-          "linearDamping": 0.0,
-          "angularDamping": 0.0,
-          "bullet": false,
-          "fixedRotation": false,
-          "active": true,
-          "sleepingAllowed": true,
-          "adjustOrigin": true,
-          "maskBits": -1,
-          "categoryBits": 1,
-          "@class": "PhysicsProperties"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 7.8923416,
-          "y": 2.1714337,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 1.0
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/platform5t-2-level1.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 0.8,
-          "height": 0.16,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 4,
-          "@class": "Layer"
-        },
-        {
-          "uuid": "d66a2991-362f-4c25-9098-bed3dcce6829",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "id": "hPlatform",
-          "@class": "VisID"
-        },
-        {
-          "vertices": [
-            {
-              "x": 7.8923416,
-              "y": 2.1714337,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 8.692341,
-              "y": 2.1714337,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 8.692341,
-              "y": 2.331434,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 7.8923416,
-              "y": 2.331434,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 7.8923416,
-                "y": 2.331434
-              },
-              {
-                "x": 7.8923416,
-                "y": 2.1714337
-              },
-              {
-                "x": 8.692341,
-                "y": 2.1714337
-              },
-              {
-                "x": 8.692341,
-                "y": 2.331434
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        },
-        {
           "bodyType": "KinematicBody",
           "friction": 1.0,
           "density": 1.0,
@@ -5585,6 +5456,70 @@
           "maskBits": -1,
           "categoryBits": 1,
           "@class": "PhysicsProperties"
+        },
+        {
+          "variables": [
+            {
+              "key": "index",
+              "value": "1",
+              "@class-key": "String",
+              "@class-value": "String"
+            }
+          ],
+          "@class": "Variables"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 5.195013,
+          "y": 9.701551,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "e1bd8ab2-a46b-446b-929c-5d75b3709563",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
         }
       ],
       "@class": "EntityScheme"
@@ -5630,6 +5565,12 @@
         {
           "layerId": 2,
           "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            30
+          ],
+          "@class": "VisGroup"
         },
         {
           "uuid": "81f62c26-bc08-4fc5-86ab-7b7a1550cf56",
@@ -5748,6 +5689,12 @@
           "@class": "Layer"
         },
         {
+          "groupIds": [
+            30
+          ],
+          "@class": "VisGroup"
+        },
+        {
           "uuid": "7cd34706-0c29-4a97-b7d9-df8e623df798",
           "@class": "VisUUID"
         },
@@ -5864,6 +5811,12 @@
           "@class": "Layer"
         },
         {
+          "groupIds": [
+            30
+          ],
+          "@class": "VisGroup"
+        },
+        {
           "uuid": "8cfb3235-843e-48cd-b3b2-5cbf382ccbdb",
           "@class": "VisUUID"
         },
@@ -5933,6 +5886,4347 @@
           "maskBits": -1,
           "categoryBits": 1,
           "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.0034592152,
+          "y": 3.5312452,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "0859ef2f-ee66-45dc-adf3-5e6f1b7e2671",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 2.5485024,
+          "y": 3.5312452,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "d0619c99-fa28-40a8-9b4e-2ebc356249ef",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 7.632494,
+          "y": 3.527844,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "4c41ebdb-5e4f-41b1-8488-122ca84da132",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 5.077204,
+          "y": 3.527844,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "1f905da6-ff45-444d-a9a7-5a12a3b2e938",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 10.192013,
+          "y": 3.527089,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "bd89a6a9-75c8-45f9-8c4f-025651559c14",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 12.748146,
+          "y": 3.527089,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "e6eb320f-ab9a-4251-aa4a-3b034e6e54e8",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 15.299627,
+          "y": 3.5261006,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            21,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "1813979c-bf3e-4ade-a96e-ca2e9f56e087",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.0064717606,
+          "y": 6.3455997,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "2a993409-345e-4f55-9555-85f432c68999",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 2.5461102,
+          "y": 6.3455997,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "fba18858-4722-4b85-a727-37793d03a999",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 7.6301017,
+          "y": 6.3421984,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "447f50cc-4d62-43e2-a300-87396c623278",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 5.074812,
+          "y": 6.3421984,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "69304d16-3cbf-4c7f-be5a-685929de625d",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 10.18962,
+          "y": 6.3414435,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "664ee04f-5462-4c16-910d-48db16136654",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 12.745754,
+          "y": 6.3414435,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "a43f359c-8bb0-4133-9d7d-e20a1fb8a7ca",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 15.2972355,
+          "y": 6.340455,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            22,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "f25b2e8e-7bd6-4076-ac8e-10afecfc1970",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.012646601,
+          "y": 9.201485,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "bba0408e-d077-4543-8b36-44973680553f",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 2.4971676,
+          "y": 9.198902,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "3bfb7165-1672-4645-b2de-c9a18c2771cd",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 7.581159,
+          "y": 9.1955,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "8890d2bb-e3ce-44f5-ab3b-fa2c38c51bd5",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 5.0258694,
+          "y": 9.1955,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "2683b018-e29a-4166-9e11-c4624673b347",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 10.140678,
+          "y": 9.194746,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "f952a929-5648-4580-9de1-d190f8b2fe82",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 12.696812,
+          "y": 9.194746,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "8ec5dea9-92cf-41f2-a100-b17675b82a0a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 15.248293,
+          "y": 9.193757,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            23,
+            24,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "bb467810-7ea4-4be5-8bee-57573102ce51",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 15.995447,
+          "y": -1.6970872,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/gound-level1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 16.0,
+          "height": 2.56,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 2,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "93ce4bb8-9fe3-4551-9520-a31f1ae9ba8e",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 15.999258,
+              "y": 0.69657737,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 31.993898,
+              "y": 0.68016076,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 32.005707,
+              "y": 0.84394634,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 15.995415,
+              "y": 0.8464127,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 15.995415,
+                "y": 0.8464127
+              },
+              {
+                "x": 15.999258,
+                "y": 0.69657737
+              },
+              {
+                "x": 31.993898,
+                "y": 0.68016076
+              },
+              {
+                "x": 32.005707,
+                "y": 0.84394634
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 1.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": true,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 14.176546,
+          "y": 0.5872228,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "570a45b4-3bca-420c-973d-707a51183cbf",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.73339,
+          "y": 0.5872228,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "8764832b-4521-436f-863a-382a1c1bfcf0",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 21.817383,
+          "y": 0.58382106,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "0ad92be0-ad4c-46e2-b09e-1e7c87d243f3",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 19.262093,
+          "y": 0.58382106,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "8503a8d5-71dd-4278-81ef-0f9f19d0c06c",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 24.376902,
+          "y": 0.5830667,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "837a6e78-2494-469b-bd79-5865f7d05eb8",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 26.933037,
+          "y": 0.5830667,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "812dbdd3-6cf1-4a34-b90f-21328ad0cf72",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 29.485613,
+          "y": 0.59323156,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            25,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "1d9eb76d-9df2-4411-8176-ecae20200c60",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 4,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 14.163824,
+          "y": 3.4305294,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "ccf65b19-3c0e-4971-96fe-d7c67c92b92e",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.720669,
+          "y": 3.4305294,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "f20008e6-769c-49bf-b687-019b546cfe9e",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 21.804659,
+          "y": 3.427128,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "2573232e-1edb-4a56-89f7-f0820b9b13eb",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 19.24937,
+          "y": 3.427128,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "df422437-ea87-41af-a2b3-679b4c7ec7e2",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 24.36418,
+          "y": 3.4263732,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "da87fbe3-4ae8-4e2a-9565-a6a9c7389839",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 26.920311,
+          "y": 3.4263732,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "20f561e9-53f3-45d2-8b3f-c53ca72126c3",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 29.471796,
+          "y": 3.4253848,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            27,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "00e23431-6990-4e8e-bb79-45ff22af4dd4",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 3,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 14.163818,
+          "y": 6.253552,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "6073d7e1-7213-485e-b926-c216cfd4f827",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.720663,
+          "y": 6.253552,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "215e2013-66b8-48c1-b2c8-9280ac4bea53",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 21.804655,
+          "y": 6.25015,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "3afe59c6-4212-4670-8ff0-2034310c3a64",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 19.249365,
+          "y": 6.25015,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "106c8328-5479-4206-8f41-e3710768ac33",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 24.364172,
+          "y": 6.249396,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "48b76b3f-3c7d-4aa9-a0bc-868f515fcae1",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 26.920307,
+          "y": 6.249396,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "b322329d-bfda-41f6-bfd5-b92f97b066f1",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 29.471788,
+          "y": 6.248407,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            28,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "c2b227f5-0648-4009-9322-8c219af03672",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 2,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 14.187944,
+          "y": 9.124837,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "95c76634-aaa1-4e48-b96f-4b19588f74ff",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.74479,
+          "y": 9.124837,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "01685381-d815-4b30-be06-ed3e5b273e1e",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 21.828781,
+          "y": 9.121436,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "50f50444-059e-4c8e-b2eb-29522bf9993d",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 19.27349,
+          "y": 9.121436,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "f5760e00-a31d-4902-80cd-0ffba6069e9c",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 24.3883,
+          "y": 9.120681,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "ed8fc61c-5d81-48f0-a1e4-0c4752830619",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 26.944435,
+          "y": 9.120681,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "ae7e5a79-5a97-4986-9842-33e78afe85bc",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 29.471788,
+          "y": 9.119693,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 1.28,
+          "originY": 2.245,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/background.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.56,
+          "height": 4.49,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 0,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            29,
+            26,
+            31
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "ed4cee0e-d8c9-43ed-9442-1be615cbe50a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.489166,
+          "y": 4.626135,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/platform3t-2-level1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.48,
+          "height": 0.16,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 2,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            30
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "c526d703-df3c-49e6-aae9-90215ff82ebc",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "vertices": [
+            {
+              "x": 16.489166,
+              "y": 4.626135,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 16.969166,
+              "y": 4.626135,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 16.969166,
+              "y": 4.7861347,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 16.489166,
+              "y": 4.7861347,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 16.489166,
+                "y": 4.7861347
+              },
+              {
+                "x": 16.489166,
+                "y": 4.626135
+              },
+              {
+                "x": 16.969166,
+                "y": 4.626135
+              },
+              {
+                "x": 16.969166,
+                "y": 4.7861347
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 1.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": true,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 16.009605,
+          "y": 4.625785,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/platform3t-2-level1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.48,
+          "height": 0.16,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 2,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            30
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "fa88f90a-eb3e-4700-ac45-6d2c03ba9b0a",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "vertices": [
+            {
+              "x": 16.009605,
+              "y": 4.625785,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 16.489605,
+              "y": 4.625785,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 16.489605,
+              "y": 4.7857847,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 16.009605,
+              "y": 4.7857847,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 16.009605,
+                "y": 4.7857847
+              },
+              {
+                "x": 16.009605,
+                "y": 4.625785
+              },
+              {
+                "x": 16.489605,
+                "y": 4.625785
+              },
+              {
+                "x": 16.489605,
+                "y": 4.7857847
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "StaticBody",
+          "friction": 1.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": true,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 7.913317,
+          "y": 2.1714,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/platform5t-2-level1.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.8,
+          "height": 0.16,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "d66a2991-362f-4c25-9098-bed3dcce6829",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "hPlatform",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 7.913317,
+              "y": 2.1714,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 8.713316,
+              "y": 2.1714,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 8.713316,
+              "y": 2.3314004,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 7.913317,
+              "y": 2.3314004,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 7.913317,
+                "y": 2.3314004
+              },
+              {
+                "x": 7.913317,
+                "y": 2.1714
+              },
+              {
+                "x": 8.713316,
+                "y": 2.1714
+              },
+              {
+                "x": 8.713316,
+                "y": 2.3314004
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        },
+        {
+          "bodyType": "KinematicBody",
+          "friction": 1.0,
+          "density": 1.0,
+          "restitution": 0.0,
+          "sensor": false,
+          "gravityScale": 1.0,
+          "linearDamping": 0.0,
+          "angularDamping": 0.0,
+          "bullet": false,
+          "fixedRotation": false,
+          "active": true,
+          "sleepingAllowed": true,
+          "adjustOrigin": true,
+          "maskBits": -1,
+          "categoryBits": 1,
+          "@class": "PhysicsProperties"
+        },
+        {
+          "variables": [
+            {
+              "key": "index",
+              "value": "1",
+              "@class-key": "String",
+              "@class-value": "String"
+            }
+          ],
+          "@class": "Variables"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 1.3005422,
+          "y": 12.051676,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "bb8f60b2-b26d-4d54-8ee2-7ef983999a94",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 4.322115,
+          "y": 12.790281,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "7b4a3e6e-a149-49fa-b3f7-1255779b4c41",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 11.238177,
+          "y": 12.521689,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "0c27d48c-4b3b-4da6-aa18-6c419ca4a954",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 6.437215,
+          "y": 11.447349,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "18edef79-a0a1-41a7-bad5-c1878c502b34",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 8.418024,
+          "y": 9.970137,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "430a1eae-2d07-43f2-9c2a-21c9d167f577",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 11.876048,
+          "y": 9.399395,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "a652e39e-b469-48a3-9ea8-2f2914be01d7",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 3.0127661,
+          "y": 10.406586,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "25ac31c2-b160-4881-86b0-cc24b01c7e2b",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 1.4012609,
+          "y": 7.754317,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "2e519a3a-33c5-43df-aebe-2c40d558a510",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 8.921621,
+          "y": 3.6248324,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "f3d2fc15-26b1-4037-ba4a-73435d7d5639",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 2.60989,
+          "y": 3.960564,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "45d4ad9b-80cf-40c5-9ef0-5a9df36cdc89",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 1.6362721,
+          "y": 5.202765,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "db70d3c8-4e68-4a3c-a255-da498f0bb528",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 8.149439,
+          "y": 7.821462,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "0fdbd4be-04c4-49fd-86da-8be2128b0481",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 4.8592825,
+          "y": 7.989327,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "e43a97af-5f0a-4fd5-9a1c-c981ffacf565",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 6.26935,
+          "y": 5.5049233,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "6ae15b5c-df7c-4826-bfa1-0c04a2844340",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 10.801711,
+          "y": 6.5456867,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.26,
+          "originY": 0.18,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/cloud.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.52,
+          "height": 0.36,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 1,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "676412c8-4f1c-4843-9a16-1ec63e8b20d1",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
         }
       ],
       "@class": "EntityScheme"
