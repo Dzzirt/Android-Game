@@ -5,36 +5,46 @@ import com.artemis.BaseSystem;
 import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.artemis.systems.IteratingSystem;
-import com.badlogic.gdx.ApplicationListener;
+import com.artemis.utils.IntBag;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.InputProcessor;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Rectangle;
-import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
-import com.badlogic.gdx.utils.Array;
-import com.dark.castle.Components.Bounds;
+import com.badlogic.gdx.scenes.scene2d.EventListener;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Touchpad;
+import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.dark.castle.Components.Button;
+import com.dark.castle.Components.State;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisID;
 import com.kotcrab.vis.runtime.component.VisPolygon;
-import com.kotcrab.vis.runtime.component.VisSprite;
 import com.kotcrab.vis.runtime.system.CameraManager;
-import com.kotcrab.vis.runtime.system.VisGroupManager;
 import com.kotcrab.vis.runtime.system.VisIDManager;
-import com.kotcrab.vis.runtime.system.physics.PhysicsSystem;
+import com.kotcrab.vis.runtime.system.delegate.DeferredEntityProcessingSystem;
+import com.kotcrab.vis.runtime.system.delegate.EntityProcessPrincipal;
+import com.kotcrab.vis.runtime.system.render.RenderBatchingSystem;
 import com.kotcrab.vis.runtime.util.AfterSceneInit;
 
 /**
  * Created by DzzirtNik on 30.04.2016.
  */
-public class UserInputSystem extends BaseSystem implements AfterSceneInit, InputProcessor {
+public class UserInputSystem extends IteratingSystem implements AfterSceneInit, InputProcessor {
     private VisIDManager idManager;
     private CameraManager cameraManager;
+    private ComponentMapper<Button> buttonCmp;
+    private ComponentMapper<VisID> idCmp;
+    private RenderBatchingSystem renderBatchingSystem;
 
-    private Entity leftArrow;
-    private Entity rightArrow;
-    private Entity jumpArrow;
-    private Entity atkArrow;
+    private Entity player;
+    private State.EntityState prevState;
+
+    Entity leftArrow;
+    Entity rightArrow;
+    Entity jumpArrow;
+    Entity atkArrow;
 
     private final int NONE = -1;
     private int pointerLeft = NONE;
@@ -42,62 +52,56 @@ public class UserInputSystem extends BaseSystem implements AfterSceneInit, Input
     private int pointerJump = NONE;
     private int pointerAtk = NONE;
 
-    private ComponentMapper<Button> buttonCmp;
-
     public UserInputSystem() {
+        super(Aspect.all(Button.class));
 
     }
 
-
     @Override
-    protected void processSystem() {
+    protected void process(int e) {
 
     }
 
     @Override
     public void afterSceneInit() {
-        Gdx.input.setInputProcessor(this);
-        leftArrow = idManager.get("leftArrow");
-        rightArrow = idManager.get("rightArrow");
-        jumpArrow = idManager.get("jumpArrow");
-        atkArrow = idManager.get("atkArrow");
+        player = idManager.get("player");
+        player.edit().add(new State());
 
-        buttonCmp.create(leftArrow);
-        buttonCmp.create(rightArrow);
-        buttonCmp.create(jumpArrow);
-        buttonCmp.create(atkArrow);
+        Entity leftArrow = idManager.get("leftArrow");
+        Entity rightArrow = idManager.get("rightArrow");
+        Entity jumpArrow = idManager.get("jumpArrow");
+        Entity atkArrow = idManager.get("atkArrow");
+
+
     }
+
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         Vector3 touchPos = GetInWorldCoordinates(screenX, screenY);
-        VisPolygon leftArrowPolygon = leftArrow.getComponent(VisPolygon.class);
-        VisPolygon rightArrowPolygon = rightArrow.getComponent(VisPolygon.class);
-        VisPolygon jumpArrowPolygon = jumpArrow.getComponent(VisPolygon.class);
-        VisPolygon atkArrowPolygon = atkArrow.getComponent(VisPolygon.class);
-
-        Transform leftArrowTransform = leftArrow.getComponent(Transform.class);
-        Transform rightArrowTransform = rightArrow.getComponent(Transform.class);
-        Transform jumpArrowTransform = jumpArrow.getComponent(Transform.class);
-        Transform atkArrowTransform = atkArrow.getComponent(Transform.class);
-
-        if (GetBounds(leftArrowPolygon, leftArrowTransform).contains(touchPos.x, touchPos.y)) {
+        if (GetBounds(leftArrow).contains(touchPos.x, touchPos.y)) {
             pointerLeft = pointer;
+            player.getComponent(State.class).state = State.EntityState.LeftMove;
             leftArrow.getComponent(Button.class).state = Button.State.PRESSED;
-        } else if (GetBounds(rightArrowPolygon, rightArrowTransform).contains(touchPos.x, touchPos.y)) {
+        } else if (GetBounds(rightArrow).contains(touchPos.x, touchPos.y)) {
             pointerRight = pointer;
+            player.getComponent(State.class).state = State.EntityState.RightMove;
             rightArrow.getComponent(Button.class).state = Button.State.PRESSED;
-        } else if (GetBounds(jumpArrowPolygon, jumpArrowTransform).contains(touchPos.x, touchPos.y)) {
+        } else if (GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
+            player.getComponent(State.class).state = State.EntityState.Jump;
             pointerJump = pointer;
             jumpArrow.getComponent(Button.class).state = Button.State.PRESSED;
-        } else if (GetBounds(atkArrowPolygon, atkArrowTransform).contains(touchPos.x, touchPos.y)) {
+        } else if (GetBounds(atkArrow).contains(touchPos.x, touchPos.y)) {
             pointerAtk = pointer;
+            player.getComponent(State.class).state = State.EntityState.Attack;
             atkArrow.getComponent(Button.class).state = Button.State.PRESSED;
         }
         return true;
     }
 
-    private Rectangle GetBounds(VisPolygon polygon, Transform transform) {
+    private Rectangle GetBounds(Entity entity) {
+        VisPolygon polygon = entity.getComponent(VisPolygon.class);
+        Transform transform = entity.getComponent(Transform.class);
         float x = transform.getX();
         float y = transform.getY();
         float width = polygon.vertices.get(1).x - polygon.vertices.get(0).x;
@@ -113,15 +117,20 @@ public class UserInputSystem extends BaseSystem implements AfterSceneInit, Input
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
         if (pointer == pointerLeft) {
+            AnimationSystem.animPriority.get(3).isPlaying = false;
+            player.getComponent(State.class).state = State.EntityState.Stop;
             leftArrow.getComponent(Button.class).state = Button.State.NORMAL;
             pointerLeft = NONE;
         } else if (pointer == pointerRight) {
+            AnimationSystem.animPriority.get(3).isPlaying = false;
+            player.getComponent(State.class).state = State.EntityState.Stop;
             rightArrow.getComponent(Button.class).state = Button.State.NORMAL;
             pointerRight = NONE;
         } else if (pointer == pointerJump) {
             jumpArrow.getComponent(Button.class).state = Button.State.NORMAL;
             pointerJump = NONE;
         } else if (pointer == pointerAtk) {
+            player.getComponent(State.class).state = State.EntityState.Stop;
             atkArrow.getComponent(Button.class).state = Button.State.NORMAL;
             pointerAtk = NONE;
         }

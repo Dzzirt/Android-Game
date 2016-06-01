@@ -46,6 +46,20 @@ gfx/door
   orig: 43, 49
   offset: 0, 0
   index: -1
+gfx/elisaStop0
+  rotate: false
+  xy: 367, 593
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+spriter/Stop/elisaStop0
+  rotate: false
+  xy: 367, 593
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
 gfx/gound-level1
   rotate: false
   xy: 2, 766
@@ -247,20 +261,6 @@ spriter/Run/elisaRun7
   xy: 1903, 856
   size: 22, 41
   orig: 22, 41
-  offset: 0, 0
-  index: -1
-spriter/Stop/elisaStop0
-  rotate: false
-  xy: 367, 593
-  size: 34, 41
-  orig: 34, 41
-  offset: 0, 0
-  index: -1
-gfx/elisaStop0
-  rotate: false
-  xy: 367, 593
-  size: 34, 41
-  orig: 34, 41
   offset: 0, 0
   index: -1
 spriter/Stop/elisaStop1

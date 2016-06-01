@@ -4,12 +4,8 @@ import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.physics.box2d.World;
-import com.badlogic.gdx.utils.Json;
-import com.badlogic.gdx.utils.JsonReader;
-import com.badlogic.gdx.utils.JsonValue;
 import com.dark.castle.Systems.CameraTrackingSystem;
-import com.dark.castle.Systems.GameConfigManager;
+import com.dark.castle.Systems.AdditionalComponentLoader;
 import com.dark.castle.Systems.PlatformMovingSystem;
 import com.dark.castle.Systems.PlayerMovementSystem;
 import com.dark.castle.Systems.UiUpdatePositionSystem;
@@ -18,28 +14,27 @@ import com.kotcrab.vis.runtime.scene.Scene;
 import com.kotcrab.vis.runtime.scene.SceneFeature;
 import com.kotcrab.vis.runtime.scene.SceneLoader;
 import com.kotcrab.vis.runtime.scene.VisAssetManager;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import com.kotcrab.vis.runtime.util.SpriterData;
 
 public class DarkCastle extends ApplicationAdapter {
 	
-	SpriteBatch batch;
-	VisAssetManager manager;
+	private SpriteBatch batch;
+	public static VisAssetManager manager;
 	Scene scene;
 
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
+		manager = new VisAssetManager(batch);
 		SceneLoader.SceneParameter parameter = new SceneLoader.SceneParameter();
 		parameter.config.addSystem(CameraTrackingSystem.class,2);
 		parameter.config.addSystem(UserInputSystem.class, 1);
 		parameter.config.addSystem(PlayerMovementSystem.class, 1);
 		parameter.config.addSystem(UiUpdatePositionSystem.class, 0);
-		parameter.config.addSystem(GameConfigManager.class, 0);
+		parameter.config.addSystem(AdditionalComponentLoader.class, 0);
 		parameter.config.addSystem(PlatformMovingSystem.class, 0);
 		parameter.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
-		manager = new VisAssetManager(batch);
+		manager.load("spriter/Player/elisa.scml", SpriterData.class);
 		scene = manager.loadSceneNow("scene/main.scene", parameter);
 
 	}

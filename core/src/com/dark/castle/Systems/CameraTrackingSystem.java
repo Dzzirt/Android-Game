@@ -22,8 +22,8 @@ public class CameraTrackingSystem extends BaseSystem {
 
     private Vector2 worldBounds;
     public CameraTrackingSystem() {
-        float width = GameConfigManager.cfg.get("world").get("width").asFloat();
-        float height = GameConfigManager.cfg.get("world").get("height").asFloat();
+        float width = AdditionalComponentLoader.cfg.get("world").get("width").asFloat();
+        float height = AdditionalComponentLoader.cfg.get("world").get("height").asFloat();
         worldBounds = new Vector2(width, height);
     }
 
