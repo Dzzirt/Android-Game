@@ -10,193 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c94874ca-8744-4a08-8ca6-239726f52e59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Goblin_enemy/cape_0/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaAttack0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaAttack1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaAttack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaAttack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaAttack4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaAttack5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/elisaAttack0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/elisaAttack1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/elisaAttack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/elisaAttack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/elisaAttack4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/elisaAttack5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Death/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Stop/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Stop/elisaStop0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/gfx/player.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Goblin_enemy/cape_0/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaAttack0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaAttack1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaAttack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaAttack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaAttack4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaAttack5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaDeath0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaDeath1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaJump0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaJump1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaJump2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaJump3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaRun7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaStop0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaStop1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisaStop2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/elisaAttack0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/elisaAttack1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/elisaAttack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/elisaAttack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/elisaAttack4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/elisaAttack5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Death/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Death/elisaDeath0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Death/elisaDeath1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Jump/elisaJump0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Jump/elisaJump1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Jump/elisaJump2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Jump/elisaJump3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/elisaRun7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Stop/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Stop/elisaStop0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Stop/elisaStop1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Stop/elisaStop2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisa.autosave.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisa.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/elisa.autosave.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/elisa.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/elisa_000.autosave.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/elisa_000.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Components/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Components/VisTouchpad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterRenderSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/TouchpadRenderSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Utils/Touchpad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisa.autosave.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/original/elisa.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa.autosave.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa_000.autosave.scml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa_000.scml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisa.scml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisaAttack0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisaAttack1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisaAttack2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisaAttack3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisaAttack4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/elisaAttack5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Attack/elisaAttack0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Attack/elisaAttack1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Attack/elisaAttack2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Attack/elisaAttack3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Attack/elisaAttack4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Attack/elisaAttack5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/elisa.scml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisa.scml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisaAttack0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisaAttack1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisaAttack2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisaAttack3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisaAttack4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/original/elisaAttack5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Attack/elisaAttack0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Attack/elisaAttack1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Attack/elisaAttack2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Attack/elisaAttack3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Attack/elisaAttack4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Attack/elisaAttack5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/elisa.scml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/gfx/elisaStop0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaStop0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/data.json" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/.vis/data.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/.vis/original/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Attack/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Death/elisaDeath0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Death/elisaDeath0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Death/elisaDeath1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Death/elisaDeath1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Jump/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Jump/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Jump/elisaJump0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Jump/elisaJump0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Jump/elisaJump1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Jump/elisaJump1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Jump/elisaJump2.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Jump/elisaJump2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Jump/elisaJump3.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Jump/elisaJump3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Run/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun2.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun3.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun4.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun5.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun6.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Run/elisaRun7.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/elisaRun7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Stop/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/spriter/elisa/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Stop/elisaStop1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Stop/elisaStop1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/assets/spriter/Stop/elisaStop2.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Stop/elisaStop2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/gfx/elisaStop0.png" afterPath="$PROJECT_DIR$/android/assets/gfx/player.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Attack/.vis/data.json" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/data.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Death/elisaDeath0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaDeath0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Death/elisaDeath1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaDeath1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Jump/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Jump/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Jump/elisaJump0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaJump0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Jump/elisaJump1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaJump1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Jump/elisaJump2.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaJump2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Jump/elisaJump3.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaJump3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Run/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun0.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun0.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun2.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun3.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun4.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun5.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun6.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Run/elisaRun7.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaRun7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Stop/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/spriter/elisa/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Stop/elisaStop1.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaStop1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vis/assets/spriter/Stop/elisaStop2.png" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/.vis/original/elisaStop2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/gfx/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/gfx/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/textures.png" afterPath="$PROJECT_DIR$/android/assets/textures.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/gfx/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/gfx/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.textureCache/cache.png" afterPath="$PROJECT_DIR$/vis/modules/.textureCache/cache.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/vis_runtime_0_3_2_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/vis_runtime_0_3_2_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/scene/main.scene" afterPath="$PROJECT_DIR$/android/assets/scene/main.scene" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/textures.atlas" afterPath="$PROJECT_DIR$/android/assets/textures.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Components/Button.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Components/Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/GameConfigManager.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/GameConfigManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlatformMovingSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlatformMovingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UiUpdatePositionSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UiUpdatePositionSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/desktop.iml" afterPath="$PROJECT_DIR$/desktop/desktop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/scene/main.scene" afterPath="$PROJECT_DIR$/vis/assets/scene/main.scene" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.backup/assetsMetadata.json.bak" afterPath="$PROJECT_DIR$/vis/modules/.backup/assetsMetadata.json.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.metadata/assetsUIMetadata" afterPath="$PROJECT_DIR$/vis/modules/.metadata/assetsUIMetadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.metadata/sceneMetadata" afterPath="$PROJECT_DIR$/vis/modules/.metadata/sceneMetadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.bak" afterPath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.firstSaveBak" afterPath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.firstSaveBak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.textureCache/cache.atlas" afterPath="$PROJECT_DIR$/vis/modules/.textureCache/cache.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/assetsMetadata.json" afterPath="$PROJECT_DIR$/vis/modules/assetsMetadata.json" />
     </list>
     <ignored path="Android-Game.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -232,7 +46,7 @@
       <file leaf-file-name="UiUpdatePositionSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UiUpdatePositionSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5645161">
+            <state vertical-scroll-proportion="0.8630137">
               <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -2672,7 +2486,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2785,8 +2598,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3104,14 +2918,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4761092" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3604,7 +3418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UiUpdatePositionSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5645161">
+        <state vertical-scroll-proportion="0.8630137">
           <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
