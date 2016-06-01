@@ -14,6 +14,7 @@ import com.badlogic.gdx.physics.box2d.Fixture;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.Manifold;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
+import com.dark.castle.Components.AnimationStates;
 import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.Velocity;
 import com.kotcrab.vis.runtime.component.PhysicsBody;
@@ -30,11 +31,13 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
     private VisIDManager idManager;
     private CameraManager cameraManager;
     private ComponentMapper<PhysicStates> physicStatesCmp;
+    private ComponentMapper<AnimationStates> animStatesCmp;
     private ComponentMapper<PhysicsBody> physicBodyCmp;
     private ComponentMapper<Velocity> velocityCmp;
 
     private boolean canJump;
     private float jumpTimeout = 0;
+    private AnimationStates animationStates;
 
     public PlayerMovementSystem() {
         super(Aspect.all(PhysicStates.class));
@@ -50,6 +53,7 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
         Body body = physicBodyCmp.get(entityId).body;
         Velocity vel = velocityCmp.get(entityId);
         PhysicStates states = physicStatesCmp.get(entityId);
+        animationStates = animStatesCmp.get(entityId);
         ProcessMove(body, vel, states);
         ProcessJump(body, vel, states);
     }
@@ -74,8 +78,10 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
                 Fixture second = contact.getFixtureB();
                 if (first.getUserData() != null && first.getUserData() == "bottomSensor") {
                     canJump = true;
+                    animationStates.getState("Jump").isPlaying = false;
                 } else if (second.getUserData() != null && second.getUserData() == "bottomSensor") {
                     canJump = true;
+                    animationStates.getState("Jump").isPlaying = false;
                 } else if (first.getUserData() != null && first.getUserData() == "sideSensor") {
                     second.setUserData("markedToZeroFriction");
                 } else if (second.getUserData() != null && second.getUserData() == "sideSensor") {
@@ -90,8 +96,10 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
                 Fixture second = contact.getFixtureB();
                 if (first.getUserData() != null && first.getUserData() == "bottomSensor") {
                     canJump = false;
+                    animationStates.getState("Jump").isPlaying = true;
                 } else if (second.getUserData() != null && second.getUserData() == "bottomSensor") {
                     canJump = false;
+                    animationStates.getState("Jump").isPlaying = true;
                 } else if (first.getUserData() != null && first.getUserData() == "sideSensor") {
                     second.setUserData(null);
                 } else if (second.getUserData() != null && second.getUserData() == "sideSensor") {

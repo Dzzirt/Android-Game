@@ -1,31 +1,21 @@
 package com.dark.castle.Systems;
 
 import com.artemis.Aspect;
-import com.artemis.BaseSystem;
 import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.artemis.systems.IteratingSystem;
-import com.artemis.utils.IntBag;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.InputProcessor;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
-import com.badlogic.gdx.scenes.scene2d.EventListener;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.Touchpad;
-import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.dark.castle.Components.Button;
 import com.dark.castle.Components.PhysicStates;
-import com.dark.castle.Components.State;
+import com.dark.castle.Components.AnimationStates;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisID;
 import com.kotcrab.vis.runtime.component.VisPolygon;
 import com.kotcrab.vis.runtime.system.CameraManager;
 import com.kotcrab.vis.runtime.system.VisIDManager;
-import com.kotcrab.vis.runtime.system.delegate.DeferredEntityProcessingSystem;
-import com.kotcrab.vis.runtime.system.delegate.EntityProcessPrincipal;
 import com.kotcrab.vis.runtime.system.render.RenderBatchingSystem;
 import com.kotcrab.vis.runtime.util.AfterSceneInit;
 
@@ -40,19 +30,24 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     private RenderBatchingSystem renderBatchingSystem;
 
     private Entity player;
-    private State.EntityState prevState;
+    //private AnimationStates.EntityState prevState;
 
     Entity leftArrow;
     Entity rightArrow;
     Entity jumpArrow;
-    Entity atkArrow;
+    Entity leftAtkArrow;
+    Entity rightAtkArrow;
+    Entity slidingArrow;
 
     private final int NONE = -1;
     private int pointerLeft = NONE;
     private int pointerRight = NONE;
     private int pointerJump = NONE;
-    private int pointerAtk = NONE;
+    private int pointerLeftAtk = NONE;
+    private int pointerRightAtk = NONE;
+    private int pointerSlide = NONE;
 
+    private AnimationStates states;
     public UserInputSystem() {
         super(Aspect.all(Button.class));
 
@@ -65,14 +60,15 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
 
     @Override
     public void afterSceneInit() {
-        player = idManager.get("player");
-        player.edit().add(new State());
         Gdx.input.setInputProcessor(this);
+        player = idManager.get("player");
         leftArrow = idManager.get("leftArrow");
         rightArrow = idManager.get("rightArrow");
+        leftAtkArrow = idManager.get("leftAtkArrow");
+        rightAtkArrow = idManager.get("rightAtkArrow");
+        slidingArrow = idManager.get("slidingArrow");
         jumpArrow = idManager.get("jumpArrow");
-        atkArrow = idManager.get("atkArrow");
-
+        states = player.getComponent(AnimationStates.class);
 
     }
 
@@ -80,21 +76,36 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         Vector3 touchPos = GetInWorldCoordinates(screenX, screenY);
-        if (GetBounds(leftArrow).contains(touchPos.x, touchPos.y)) {
+        if (GetBounds(leftArrow).contains(touchPos.x, touchPos.y)&& pointerRight == NONE) {
             pointerLeft = pointer;
-            player.getComponent(State.class).state = State.EntityState.LeftMove;
+            states.getState("Run").isPlaying = true;
+            states.getState("Run").isFlip = true;
             player.getComponent(PhysicStates.class).isMovingLeft = true;
-        } else if (GetBounds(rightArrow).contains(touchPos.x, touchPos.y)) {
+        }
+        else if (GetBounds(rightArrow).contains(touchPos.x, touchPos.y) && pointerLeft == NONE) {
             pointerRight = pointer;
-            player.getComponent(State.class).state = State.EntityState.RightMove;
+            states.getState("Run").isPlaying = true;
+            states.getState("Run").isFlip = false;
             player.getComponent(PhysicStates.class).isMovingRight = true;
-        } else if (GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
-            player.getComponent(State.class).state = State.EntityState.Jump;
+        }
+        else if (GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
             pointerJump = pointer;
+            states.getState("Jump").isPlaying = true;
             player.getComponent(PhysicStates.class).isJumping = true;
-        } else if (GetBounds(atkArrow).contains(touchPos.x, touchPos.y)) {
-            pointerAtk = pointer;
-            player.getComponent(State.class).state = State.EntityState.Attack;
+        }
+        else if (GetBounds(slidingArrow).contains(touchPos.x, touchPos.y)) {
+            pointerSlide = pointer;
+            states.getState("Slide").isPlaying = true;
+        }
+        else if (GetBounds(leftAtkArrow).contains(touchPos.x, touchPos.y)) {
+            pointerLeftAtk = pointer;
+            states.getState("Attack").isPlaying = true;
+            states.getState("Attack").isFlip = true;
+        }
+        else if (GetBounds(rightAtkArrow).contains(touchPos.x, touchPos.y)) {
+            pointerRightAtk = pointer;
+            states.getState("Attack").isPlaying = true;
+            states.getState("Attack").isFlip = false;
         }
         return true;
     }
@@ -117,21 +128,28 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
         if (pointer == pointerLeft) {
-            AnimationSystem.animPriority.get(3).isPlaying = false;
-            player.getComponent(State.class).state = State.EntityState.Stop;
+            states.getState("Run").isPlaying = false;
+            //player.getComponent(AnimationStates.class).state = AnimationStates.EntityState.Stop;
             player.getComponent(PhysicStates.class).isMovingLeft = false;
             pointerLeft = NONE;
         } else if (pointer == pointerRight) {
-            AnimationSystem.animPriority.get(3).isPlaying = false;
-            player.getComponent(State.class).state = State.EntityState.Stop;
+            states.getState("Run").isPlaying = false;
+            //player.getComponent(AnimationStates.class).state = AnimationStates.EntityState.Stop;
             player.getComponent(PhysicStates.class).isMovingRight = false;
             pointerRight = NONE;
         } else if (pointer == pointerJump) {
             player.getComponent(PhysicStates.class).isJumping = false;
             pointerJump = NONE;
-        } else if (pointer == pointerAtk) {
-            player.getComponent(State.class).state = State.EntityState.Stop;
-            pointerAtk = NONE;
+        } else if (pointer == pointerSlide) {
+            states.getState("Slide").isPlaying = false;
+            player.getComponent(PhysicStates.class).isSliding = false;
+            pointerSlide = NONE;
+        } else if (pointer == pointerLeftAtk) {
+            states.getState("Attack").isPlaying = false;
+            pointerLeftAtk = NONE;
+        } else if (pointer == pointerRightAtk) {
+            states.getState("Attack").isPlaying = false;
+            pointerRightAtk = NONE;
         }
         return false;
     }

@@ -34,43 +34,27 @@
         <file id="2" name="Stop/elisaStop2.png" width="33" height="39" pivot_x="0.627172" pivot_y="0.539239"/>
     </folder>
     <entity id="0" name="Player">
-        <animation id="0" name="Jump" length="550" interval="10" looping="false">
+        <animation id="0" name="Jump" length="600" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="150">
+                <key id="1" time="299">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
-                <key id="2" time="299">
-                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
-                </key>
-                <key id="3" time="449">
-                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
-                </key>
             </mainline>
-            <timeline id="0" name="elisaJump0">
+            <timeline id="0" name="elisaJump1">
                 <key id="0" spin="0">
-                    <object folder="2" file="0" x="22" y="21" pivot_x="0.585421" pivot_y="0.47268" angle="0"/>
-                </key>
-            </timeline>
-            <timeline id="1" name="elisaJump1">
-                <key id="0" time="150" spin="0">
                     <object folder="2" file="1" x="23" y="21" pivot_x="0.583558" pivot_y="0.46126" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="2" name="elisaJump2">
+            <timeline id="1" name="elisaJump2">
                 <key id="0" time="299" spin="0">
                     <object folder="2" file="2" x="23" y="21" pivot_x="0.577016" pivot_y="0.469387" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="3" name="elisaJump3">
-                <key id="0" time="449" spin="0">
-                    <object folder="2" file="3" x="23" y="21" pivot_x="0.577016" pivot_y="0.469387" angle="0"/>
-                </key>
-            </timeline>
         </animation>
-        <animation id="1" name="Attack" length="450" interval="10" looping="false">
+        <animation id="1" name="Attack" length="450" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -122,7 +106,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="Run" length="800" interval="10">
+        <animation id="2" name="Run" length="800" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
@@ -190,7 +174,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="Stop" length="900" interval="10">
+        <animation id="3" name="Stop" length="900" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -218,7 +202,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Death" length="400" interval="10" looping="false">
+        <animation id="4" name="Slide" length="400" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -229,12 +213,12 @@
             </mainline>
             <timeline id="0" name="elisaDeath0">
                 <key id="0" spin="0">
-                    <object folder="1" file="0" angle="0"/>
+                    <object folder="1" file="0" x="16" y="21" pivot_x="0.529781" pivot_y="0.630593" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="elisaDeath1_000">
                 <key id="0" time="198" spin="0">
-                    <object folder="1" file="1" angle="0"/>
+                    <object folder="1" file="1" x="16.387892" y="20.955335" pivot_x="0.5651" pivot_y="0.698511" angle="0"/>
                 </key>
             </timeline>
         </animation>

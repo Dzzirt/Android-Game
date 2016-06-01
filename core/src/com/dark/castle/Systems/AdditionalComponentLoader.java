@@ -7,6 +7,7 @@ import com.artemis.Entity;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.utils.JsonReader;
 import com.badlogic.gdx.utils.JsonValue;
+import com.dark.castle.Components.AnimationStates;
 import com.dark.castle.Components.Button;
 import com.dark.castle.Components.MovingPlatform;
 import com.dark.castle.Components.PhysicStates;
@@ -34,6 +35,7 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
     private ComponentMapper<MovingPlatform> movingPlatformCmp;
     private ComponentMapper<PhysicStates> physicStatesCmp;
     private ComponentMapper<Button> buttonCmp;
+    private ComponentMapper<AnimationStates> animStatesCmp;
 
     public static JsonValue cfg = new JsonReader().parse(Gdx.files.internal("config.json"));
 
@@ -57,6 +59,7 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
         AddPhysicStates(entityId);
         AddButton(entityId);
         AddSpriter(entityId, cfg.get(idComponentMapper.get(entityId).id));
+        AddAnimationStates(entityId);
     }
 
     private void AddVelocity(int entityId, JsonValue val) {
@@ -86,8 +89,9 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
         if (id.id.equals("leftArrow")
                 || id.id.equals("rightArrow")
                 || id.id.equals("jumpArrow")
-                || id.id.equals("atkArrow")
-                || id.id.equals("tackleArrow")){
+                || id.id.equals("leftAtkArrow")
+                || id.id.equals("rightAtkArrow")
+                || id.id.equals("slidingArrow")){
             buttonCmp.create(entityId);
         }
     }
@@ -105,5 +109,14 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
             spriteCmp.get(entityId).setSize(0, 0);
             world.getEntity(entityId).edit().add(visSpriter);
         }
+    }
+
+    private void AddAnimationStates(int entityId) {
+        VisID id = idComponentMapper.get(entityId);
+        Boolean stop;
+        if (id.id.equals("player") || id.id.equals("enemy")) {
+           stop = animStatesCmp.create(entityId).getState("Stop").isPlaying;
+        }
+        System.out.println(1);
     }
 }
