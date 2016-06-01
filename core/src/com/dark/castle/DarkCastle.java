@@ -1,47 +1,67 @@
 package com.dark.castle;
 
+import com.artemis.BaseSystem;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.physics.box2d.World;
-import com.badlogic.gdx.utils.Json;
-import com.badlogic.gdx.utils.JsonReader;
-import com.badlogic.gdx.utils.JsonValue;
 import com.dark.castle.Systems.CameraTrackingSystem;
 import com.dark.castle.Systems.GameConfigManager;
 import com.dark.castle.Systems.PlatformMovingSystem;
+import com.dark.castle.Systems.AnimationSystem;
 import com.dark.castle.Systems.PlayerMovementSystem;
+import com.dark.castle.Systems.SpriterRenderSystem;
+import com.dark.castle.Systems.TouchpadRenderSystem;
 import com.dark.castle.Systems.UiUpdatePositionSystem;
 import com.dark.castle.Systems.UserInputSystem;
+import com.kotcrab.vis.runtime.RuntimeContext;
+import com.kotcrab.vis.runtime.data.SceneData;
 import com.kotcrab.vis.runtime.scene.Scene;
 import com.kotcrab.vis.runtime.scene.SceneFeature;
 import com.kotcrab.vis.runtime.scene.SceneLoader;
+import com.kotcrab.vis.runtime.scene.SystemProvider;
 import com.kotcrab.vis.runtime.scene.VisAssetManager;
+import com.kotcrab.vis.runtime.system.render.RenderBatchingSystem;
+import com.kotcrab.vis.runtime.util.EntityEngineConfiguration;
+import com.kotcrab.vis.runtime.util.SpriterData;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import javax.jws.soap.SOAPBinding;
 
 public class DarkCastle extends ApplicationAdapter {
 	
 	SpriteBatch batch;
-	VisAssetManager manager;
+	public static VisAssetManager manager;
 	Scene scene;
 
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
+		manager = new VisAssetManager(batch);
+		manager.load("spriter/Player/elisa.scml", SpriterData.class);
 		SceneLoader.SceneParameter parameter = new SceneLoader.SceneParameter();
 		parameter.config.addSystem(CameraTrackingSystem.class,2);
-		parameter.config.addSystem(UserInputSystem.class, 1);
 		parameter.config.addSystem(PlayerMovementSystem.class, 1);
-		parameter.config.addSystem(UiUpdatePositionSystem.class, 0);
+		parameter.config.addSystem(UiUpdatePositionSystem.class, 2);
 		parameter.config.addSystem(GameConfigManager.class, 0);
 		parameter.config.addSystem(PlatformMovingSystem.class, 0);
-		parameter.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
-		manager = new VisAssetManager(batch);
+		parameter.config.addSystem(AnimationSystem.class, 3);
+		parameter.config.addSystem(UserInputSystem.class, 0);
+		parameter.config.addSystem(new SystemProvider() {
+			@Override
+			public BaseSystem create(EntityEngineConfiguration config, RuntimeContext context, SceneData data) {
+				return new SpriterRenderSystem(config.getSystem(RenderBatchingSystem.class));
+			}
+		}, 0);
+		parameter.config.addSystem(new SystemProvider() {
+			@Override
+			public BaseSystem create(EntityEngineConfiguration config, RuntimeContext context, SceneData data) {
+				return new TouchpadRenderSystem(config.getSystem(RenderBatchingSystem.class));
+			}
+		}, 2);
+		//parameter.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
+		parameter.config.disable(SceneFeature.SPRITER_RENDER_SYSTEM);
 		scene = manager.loadSceneNow("scene/main.scene", parameter);
-
+		scene.getEntityEngine().getSystem(RenderBatchingSystem.class);
 	}
 
 	@Override

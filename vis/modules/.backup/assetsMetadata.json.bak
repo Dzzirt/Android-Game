@@ -4,5 +4,11 @@
     "value": "com.kotcrab.vis.editor.directory.Spriter",
     "@class-key": "String",
     "@class-value": "String"
+  },
+  {
+    "key": "spriter/Goblin_enemy/",
+    "value": "com.kotcrab.vis.editor.directory.Spriter",
+    "@class-key": "String",
+    "@class-value": "String"
   }
 ]

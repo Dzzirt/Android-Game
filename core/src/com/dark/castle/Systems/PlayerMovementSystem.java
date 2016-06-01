@@ -27,14 +27,16 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
     private VisIDManager idManager;
     private CameraManager cameraManager;
 
-    private Button leftArrow;
+/*    private Button leftArrow;
     private Button rightArrow;
     private Button jumpArrow;
-    private Button atkArrow;
+    private Button atkArrow;*/
 
 
     private boolean canJump;
     private float jumpTimeout = 0;
+
+    public static boolean isInAir;
 
     public PlayerMovementSystem() {
 
@@ -42,10 +44,10 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
 
     @Override
     public void afterSceneInit() {
-        leftArrow = idManager.get("leftArrow").getComponent(Button.class);
+/*        leftArrow = idManager.get("leftArrow").getComponent(Button.class);
         rightArrow = idManager.get("rightArrow").getComponent(Button.class);
         jumpArrow = idManager.get("jumpArrow").getComponent(Button.class);
-        atkArrow = idManager.get("atkArrow").getComponent(Button.class);
+        atkArrow = idManager.get("atkArrow").getComponent(Button.class);*/
         AllowPlayerToJumpAndSlideOverWalls();
     }
 
@@ -65,8 +67,12 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
                 Fixture second = contact.getFixtureB();
                 if (first.getUserData() != null && first.getUserData() == "bottomSensor") {
                     canJump = true;
+                    isInAir = false;
+                    AnimationSystem.animPriority.get(2).isPlaying = false;
                 } else if (second.getUserData() != null && second.getUserData() == "bottomSensor") {
                     canJump = true;
+                    isInAir = false;
+                    AnimationSystem.animPriority.get(2).isPlaying = false;
                 } else if (first.getUserData() != null && first.getUserData() == "sideSensor") {
                     second.setUserData("markedToZeroFriction");
                 } else if (second.getUserData() != null && second.getUserData() == "sideSensor") {
@@ -81,8 +87,10 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
                 Fixture second = contact.getFixtureB();
                 if (first.getUserData() != null && first.getUserData() == "bottomSensor") {
                     canJump = false;
+                    isInAir = true;
                 } else if (second.getUserData() != null && second.getUserData() == "bottomSensor") {
                     canJump = false;
+                    isInAir = true;
                 } else if (first.getUserData() != null && first.getUserData() == "sideSensor") {
                     second.setUserData(null);
                 } else if (second.getUserData() != null && second.getUserData() == "sideSensor") {
@@ -131,16 +139,16 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
     }
 
     private void ProcessMove(Body playerBody, Velocity playerVel) {
-        if (leftArrow.state == Button.State.PRESSED) {
+       /* if (leftArrow.state == Button.State.PRESSED) {
             playerBody.setLinearVelocity(-playerVel.x, playerBody.getLinearVelocity().y);
         }
         if (rightArrow.state == Button.State.PRESSED) {
             playerBody.setLinearVelocity(playerVel.x, playerBody.getLinearVelocity().y);
-        }
+        }*/
     }
 
     private void ProcessJump(Body playerBody, Velocity playerVel) {
-        if (jumpArrow.state == Button.State.PRESSED && canJump && jumpTimeout <= 0) {
+        /*if (jumpArrow.state == Button.State.PRESSED && canJump && jumpTimeout <= 0) {
             playerBody.applyLinearImpulse(new Vector2(0,
                             playerBody.getMass() * playerVel.y),
                     playerBody.getWorldCenter(),
@@ -149,7 +157,7 @@ public class PlayerMovementSystem extends BaseSystem implements AfterSceneInit {
         }
         if (jumpTimeout > 0) {
             jumpTimeout--;
-        }
+        }*/
     }
 
 

@@ -27,6 +27,7 @@ public class PlatformMovingSystem extends BaseSystem implements AfterSceneInit {
     private ComponentMapper<Velocity> velCmp;
     private ComponentMapper<MovingPlatform> movingPlatformCmp;
 
+
     Timer.Task CreatePlatformTask(final Entity e, final Velocity vel)
     {
         return new Timer.Task() {
@@ -57,13 +58,13 @@ public class PlatformMovingSystem extends BaseSystem implements AfterSceneInit {
             Velocity vel = velCmp.get(e);
             MovingPlatform mp = movingPlatformCmp.get(e);
             Timer.Task task = CreatePlatformTask(e, vel);
+
             Timer.instance().scheduleTask(task, random.nextFloat(),
-                    mp.distance / (vel.y != 0 ? vel.y : vel.x));
+                    mp.distance / (vel.y > 0 ? vel.y : vel.x));
         }
     }
 
     @Override
     protected void processSystem() {
-
     }
 }

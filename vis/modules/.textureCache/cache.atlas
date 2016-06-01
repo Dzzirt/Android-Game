@@ -6,154 +6,182 @@ filter: Nearest,Nearest
 repeat: none
 Untitled-1
   rotate: false
-  xy: 1969, 189
+  xy: 2266, 195
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 atk_btn
   rotate: false
-  xy: 2, 2
+  xy: 2266, 360
   size: 105, 105
   orig: 105, 105
   offset: 0, 0
   index: -1
+attackBg
+  rotate: false
+  xy: 176, 55
+  size: 142, 152
+  orig: 142, 152
+  offset: 0, 0
+  index: -1
+attackKnob
+  rotate: false
+  xy: 2266, 265
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
 background
   rotate: false
-  xy: 1604, 46
+  xy: 1604, 16
   size: 256, 449
   orig: 256, 449
   offset: 0, 0
   index: -1
 badlogic
   rotate: false
-  xy: 1862, 239
+  xy: 1862, 209
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 cloud
   rotate: false
-  xy: 2266, 441
+  xy: 2266, 227
   size: 52, 36
   orig: 52, 36
   offset: 0, 0
   index: -1
 door
   rotate: false
-  xy: 1862, 63
+  xy: 427, 140
   size: 43, 49
   orig: 43, 49
   offset: 0, 0
   index: -1
-elisaStop0
-  rotate: false
-  xy: 109, 66
-  size: 34, 41
-  orig: 34, 41
-  offset: 0, 0
-  index: -1
 gound-level1
   rotate: false
-  xy: 2, 239
+  xy: 2, 209
   size: 1600, 256
   orig: 1600, 256
   offset: 0, 0
   index: -1
 ground-trap
   rotate: false
-  xy: 230, 114
+  xy: 1944, 61
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 jump_arrow
   rotate: false
-  xy: 148, 132
+  xy: 2008, 102
   size: 105, 105
   orig: 105, 105
   offset: 0, 0
   index: -1
 ladder-level1
   rotate: false
-  xy: 2, 109
+  xy: 1862, 79
   size: 144, 128
   orig: 144, 128
   offset: 0, 0
   index: -1
 left_arrow
   rotate: false
-  xy: 1862, 132
+  xy: 320, 102
   size: 105, 105
   orig: 105, 105
   offset: 0, 0
   index: -1
+moveBg
+  rotate: false
+  xy: 2, 38
+  size: 172, 169
+  orig: 172, 169
+  offset: 0, 0
+  index: -1
+moveKnob
+  rotate: false
+  xy: 2373, 374
+  size: 93, 91
+  orig: 93, 91
+  offset: 0, 0
+  index: -1
 platform-2t-level1
   rotate: false
-  xy: 337, 221
+  xy: 84, 20
   size: 32, 16
   orig: 32, 16
   offset: 0, 0
   index: -1
 platform-3t-level1
   rotate: false
-  xy: 2348, 479
+  xy: 2468, 449
   size: 48, 16
   orig: 48, 16
   offset: 0, 0
   index: -1
 platform3t-2-level1
   rotate: false
-  xy: 255, 203
+  xy: 2, 2
   size: 48, 16
   orig: 48, 16
   offset: 0, 0
   index: -1
 platform4t-2-level1
   rotate: false
-  xy: 1862, 114
+  xy: 320, 84
   size: 64, 16
   orig: 64, 16
   offset: 0, 0
   index: -1
 platform4t-level1
   rotate: false
-  xy: 1969, 221
+  xy: 427, 191
   size: 64, 16
   orig: 64, 16
   offset: 0, 0
   index: -1
 platform5t-2-level1
   rotate: false
-  xy: 2266, 479
+  xy: 2, 20
   size: 80, 16
   orig: 80, 16
   offset: 0, 0
   index: -1
 platform5t-3-level1
   rotate: false
-  xy: 148, 114
+  xy: 1862, 61
   size: 80, 16
   orig: 80, 16
   offset: 0, 0
   index: -1
 platform5t-level1
   rotate: false
-  xy: 255, 221
+  xy: 2008, 84
   size: 80, 16
   orig: 80, 16
   offset: 0, 0
   index: -1
+player
+  rotate: false
+  xy: 1862, 18
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
 small-column
   rotate: false
-  xy: 2266, 329
+  xy: 2115, 83
   size: 40, 110
   orig: 40, 110
   offset: 0, 0
   index: -1
 wall-level1
   rotate: false
-  xy: 2120, 225
+  xy: 2120, 195
   size: 144, 270
   orig: 144, 270
   offset: 0, 0

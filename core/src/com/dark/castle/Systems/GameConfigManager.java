@@ -12,10 +12,6 @@ import com.dark.castle.Components.Velocity;
 import com.kotcrab.vis.runtime.component.Variables;
 import com.kotcrab.vis.runtime.component.VisID;
 
-import java.io.FileNotFoundException;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by DzzirtNik on 03.05.2016.
  */
