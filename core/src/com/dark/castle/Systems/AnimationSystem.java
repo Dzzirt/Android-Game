@@ -5,6 +5,7 @@ import com.artemis.BaseSystem;
 import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.artemis.systems.IteratingSystem;
+import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.State;
 import com.dark.castle.DarkCastle;
 import com.kotcrab.vis.runtime.assets.SpriterAsset;
@@ -28,7 +29,7 @@ import java.util.HashMap;
 /**
  * Created by DzzirtNik on 29.05.2016.
  */
-public class AnimationSystem extends IteratingSystem implements AfterSceneInit {
+public class AnimationSystem extends IteratingSystem {
     public static class AnimationState
     {
         public String name;
@@ -47,6 +48,7 @@ public class AnimationSystem extends IteratingSystem implements AfterSceneInit {
     private ComponentMapper<Transform> transformrCmp;
     private ComponentMapper<VisPolygon> polygonCmp;
     private ComponentMapper<Origin> originCmp;
+    private ComponentMapper<PhysicStates> physicStatesCmp;
     public static ArrayList<AnimationState> animPriority = new ArrayList<AnimationState>() {
         {
             add(new AnimationState("Death", false, false));
@@ -67,13 +69,14 @@ public class AnimationSystem extends IteratingSystem implements AfterSceneInit {
     @Override
     protected void process(int entityId) {
         final VisSpriter visSpriter = spriterCmp.get(entityId);
+        PhysicStates physicStates = physicStatesCmp.get(entityId);
         Transform transform = transformrCmp.get(entityId);
         VisPolygon polygon = polygonCmp.get(entityId);
         visSpriter.updateValues(transform.getX() + (polygon.vertices.get(1).x - polygon.vertices.get(0).x) / 2.f,
                 transform.getY() + (polygon.vertices.get(3).y - polygon.vertices.get(1).y) / 2.f, 0);
 
         playerState = stateCmp.get(entityId).state;
-        if (playerState == State.EntityState.Jump /*&& !PlayerMovementSystem*/) {
+        if (playerState == State.EntityState.Jump && !physicStates.isJumping) {
             playerState = State.EntityState.Stop;
             animPriority.get(2).isPlaying = false;
         }
@@ -120,18 +123,5 @@ public class AnimationSystem extends IteratingSystem implements AfterSceneInit {
 
             }
         });
-    }
-
-    @Override
-    public void afterSceneInit() {
-        SpriterData spriterData = DarkCastle.manager.get("spriter/Player/elisa.scml");
-        VisSpriter visSpriter = new VisSpriter(spriterData.loader, spriterData.data, 0.01f);
-        visSpriter.getPlayer().scale(0.01f);
-        visSpriter.getPlayer().setAnimation("Stop");
-        visSpriter.setAnimationPlaying(true);
-        Entity player = idManager.get("player");
-        player.getComponent(VisSprite.class).setSize(0,0);
-        player.edit().add(new AssetReference(new SpriterAsset("spriter/Player/elisa.scml", 0.01f)));
-        player.edit().add(visSpriter);
     }
 }

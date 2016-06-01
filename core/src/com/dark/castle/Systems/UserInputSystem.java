@@ -17,6 +17,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Touchpad;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.dark.castle.Components.Button;
+import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.State;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisID;
@@ -59,18 +60,18 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
 
     @Override
     protected void process(int e) {
-
+        System.out.println();
     }
 
     @Override
     public void afterSceneInit() {
         player = idManager.get("player");
         player.edit().add(new State());
-
-        Entity leftArrow = idManager.get("leftArrow");
-        Entity rightArrow = idManager.get("rightArrow");
-        Entity jumpArrow = idManager.get("jumpArrow");
-        Entity atkArrow = idManager.get("atkArrow");
+        Gdx.input.setInputProcessor(this);
+        leftArrow = idManager.get("leftArrow");
+        rightArrow = idManager.get("rightArrow");
+        jumpArrow = idManager.get("jumpArrow");
+        atkArrow = idManager.get("atkArrow");
 
 
     }
@@ -82,19 +83,18 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
         if (GetBounds(leftArrow).contains(touchPos.x, touchPos.y)) {
             pointerLeft = pointer;
             player.getComponent(State.class).state = State.EntityState.LeftMove;
-            leftArrow.getComponent(Button.class).state = Button.State.PRESSED;
+            player.getComponent(PhysicStates.class).isMovingLeft = true;
         } else if (GetBounds(rightArrow).contains(touchPos.x, touchPos.y)) {
             pointerRight = pointer;
             player.getComponent(State.class).state = State.EntityState.RightMove;
-            rightArrow.getComponent(Button.class).state = Button.State.PRESSED;
+            player.getComponent(PhysicStates.class).isMovingRight = true;
         } else if (GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
             player.getComponent(State.class).state = State.EntityState.Jump;
             pointerJump = pointer;
-            jumpArrow.getComponent(Button.class).state = Button.State.PRESSED;
+            player.getComponent(PhysicStates.class).isJumping = true;
         } else if (GetBounds(atkArrow).contains(touchPos.x, touchPos.y)) {
             pointerAtk = pointer;
             player.getComponent(State.class).state = State.EntityState.Attack;
-            atkArrow.getComponent(Button.class).state = Button.State.PRESSED;
         }
         return true;
     }
@@ -119,19 +119,18 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
         if (pointer == pointerLeft) {
             AnimationSystem.animPriority.get(3).isPlaying = false;
             player.getComponent(State.class).state = State.EntityState.Stop;
-            leftArrow.getComponent(Button.class).state = Button.State.NORMAL;
+            player.getComponent(PhysicStates.class).isMovingLeft = false;
             pointerLeft = NONE;
         } else if (pointer == pointerRight) {
             AnimationSystem.animPriority.get(3).isPlaying = false;
             player.getComponent(State.class).state = State.EntityState.Stop;
-            rightArrow.getComponent(Button.class).state = Button.State.NORMAL;
+            player.getComponent(PhysicStates.class).isMovingRight = false;
             pointerRight = NONE;
         } else if (pointer == pointerJump) {
-            jumpArrow.getComponent(Button.class).state = Button.State.NORMAL;
+            player.getComponent(PhysicStates.class).isJumping = false;
             pointerJump = NONE;
         } else if (pointer == pointerAtk) {
             player.getComponent(State.class).state = State.EntityState.Stop;
-            atkArrow.getComponent(Button.class).state = Button.State.NORMAL;
             pointerAtk = NONE;
         }
         return false;

@@ -3,6 +3,7 @@ package com.dark.castle.Systems;
 import com.artemis.Aspect;
 import com.artemis.BaseEntitySystem;
 import com.artemis.ComponentMapper;
+import com.artemis.Entity;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.utils.JsonReader;
 import com.badlogic.gdx.utils.JsonValue;
@@ -10,8 +11,14 @@ import com.dark.castle.Components.Button;
 import com.dark.castle.Components.MovingPlatform;
 import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.Velocity;
+import com.dark.castle.DarkCastle;
+import com.kotcrab.vis.runtime.assets.SpriterAsset;
+import com.kotcrab.vis.runtime.component.AssetReference;
 import com.kotcrab.vis.runtime.component.Variables;
 import com.kotcrab.vis.runtime.component.VisID;
+import com.kotcrab.vis.runtime.component.VisSprite;
+import com.kotcrab.vis.runtime.component.VisSpriter;
+import com.kotcrab.vis.runtime.util.SpriterData;
 
 /**
  * Created by DzzirtNik on 03.05.2016.
@@ -19,10 +26,14 @@ import com.kotcrab.vis.runtime.component.VisID;
 public class AdditionalComponentLoader extends BaseEntitySystem{
     private ComponentMapper<VisID> idComponentMapper;
     private ComponentMapper<Variables> varsCmp;
+    private ComponentMapper<AssetReference> assetRefCmp;
+    private ComponentMapper<VisSprite> spriteCmp;
+    private ComponentMapper<VisSpriter> spriterCmp;
 
     private ComponentMapper<Velocity> horVelCmp;
     private ComponentMapper<MovingPlatform> movingPlatformCmp;
     private ComponentMapper<PhysicStates> physicStatesCmp;
+    private ComponentMapper<Button> buttonCmp;
 
     public static JsonValue cfg = new JsonReader().parse(Gdx.files.internal("config.json"));
 
@@ -44,27 +55,55 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
         AddVelocity(entityId, cfg.get(idComponentMapper.get(entityId).id + index));
         AddMovingPlatform(entityId, cfg.get(idComponentMapper.get(entityId).id + index));
         AddPhysicStates(entityId);
+        AddButton(entityId);
+        AddSpriter(entityId, cfg.get(idComponentMapper.get(entityId).id));
     }
 
-    private void AddVelocity(int entityId, JsonValue arr) {
-        if (arr != null && arr.has("xVel") && arr.has("yVel")) {
+    private void AddVelocity(int entityId, JsonValue val) {
+        if (val != null && val.has("xVel") && val.has("yVel")) {
             Velocity vel =  horVelCmp.create(entityId);
-            vel.x = arr.get("xVel").asFloat();
-            vel.y = arr.get("yVel").asFloat();
+            vel.x = val.get("xVel").asFloat();
+            vel.y = val.get("yVel").asFloat();
         }
     }
 
-    private void AddMovingPlatform(int entityId, JsonValue arr) {
-        if (arr != null && arr.has("distance")) {
+    private void AddMovingPlatform(int entityId, JsonValue val) {
+        if (val != null && val.has("distance")) {
             MovingPlatform mp =  movingPlatformCmp.create(entityId);
-            mp.distance = arr.get("distance").asFloat();
+            mp.distance = val.get("distance").asFloat();
         }
     }
 
     private void AddPhysicStates(int entityId) {
         VisID id = idComponentMapper.get(entityId);
-        if (id.equals("player") || id.equals("enemy")) {
+        if (id.id.equals("player") || id.id.equals("enemy")) {
             physicStatesCmp.create(entityId);
+        }
+    }
+
+    private void AddButton(int entityId) {
+        VisID id = idComponentMapper.get(entityId);
+        if (id.id.equals("leftArrow")
+                || id.id.equals("rightArrow")
+                || id.id.equals("jumpArrow")
+                || id.id.equals("atkArrow")
+                || id.id.equals("tackleArrow")){
+            buttonCmp.create(entityId);
+        }
+    }
+
+    private void AddSpriter(int entityId, JsonValue val) {
+
+        VisID id = idComponentMapper.get(entityId);
+        if (id.id.equals("player")) {
+            SpriterData spriterData = DarkCastle.manager.get(val.getString("animPath"));
+            VisSpriter visSpriter = new VisSpriter(spriterData.loader, spriterData.data, 0.01f);
+            visSpriter.getPlayer().scale(0.01f);
+            visSpriter.getPlayer().setAnimation("Stop");
+            visSpriter.setAnimationPlaying(true);
+            assetRefCmp.create(entityId).asset = new SpriterAsset("spriter/Player/elisa.scml", 0.01f);
+            spriteCmp.get(entityId).setSize(0, 0);
+            world.getEntity(entityId).edit().add(visSpriter);
         }
     }
 }
