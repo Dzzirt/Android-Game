@@ -202,12 +202,12 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Slide" length="400" interval="100" looping="false">
+        <animation id="4" name="Slide" length="200" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="198">
+                <key id="1" time="99">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
             </mainline>
@@ -217,7 +217,7 @@
                 </key>
             </timeline>
             <timeline id="1" name="elisaDeath1_000">
-                <key id="0" time="198" spin="0">
+                <key id="0" time="99" spin="0">
                     <object folder="1" file="1" x="16.387892" y="20.955335" pivot_x="0.5651" pivot_y="0.698511" angle="0"/>
                 </key>
             </timeline>

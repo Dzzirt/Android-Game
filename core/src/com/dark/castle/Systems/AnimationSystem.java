@@ -55,7 +55,7 @@ public class AnimationSystem extends IteratingSystem {
             @Override
             public void animationFinished(Animation animation) {
                 for (AnimationStates.StateData data : states.priorityList) {
-                    if (animation.name.equals(data.name) && data.name != "Stop" && data.name != "Attack" && data.name != "Run" && data.name != "Jump") {
+                    if (animation.name.equals(data.name) && data.name.equals("Slide")) {
                         data.isPlaying = false;
                         break;
                     }

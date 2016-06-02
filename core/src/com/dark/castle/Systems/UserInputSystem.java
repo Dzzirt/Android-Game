@@ -96,6 +96,7 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
         else if (GetBounds(slidingArrow).contains(touchPos.x, touchPos.y)) {
             pointerSlide = pointer;
             states.getState("Slide").isPlaying = true;
+            player.getComponent(PhysicStates.class).isSliding = true;
         }
         else if (GetBounds(leftAtkArrow).contains(touchPos.x, touchPos.y)) {
             pointerLeftAtk = pointer;
@@ -129,12 +130,10 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
         if (pointer == pointerLeft) {
             states.getState("Run").isPlaying = false;
-            //player.getComponent(AnimationStates.class).state = AnimationStates.EntityState.Stop;
             player.getComponent(PhysicStates.class).isMovingLeft = false;
             pointerLeft = NONE;
         } else if (pointer == pointerRight) {
             states.getState("Run").isPlaying = false;
-            //player.getComponent(AnimationStates.class).state = AnimationStates.EntityState.Stop;
             player.getComponent(PhysicStates.class).isMovingRight = false;
             pointerRight = NONE;
         } else if (pointer == pointerJump) {

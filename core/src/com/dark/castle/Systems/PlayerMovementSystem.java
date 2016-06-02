@@ -142,10 +142,14 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
 
 
     private void ProcessMove(Body body, Velocity vel, PhysicStates states) {
-        if (states.isMovingLeft) {
+        if (states.isSliding) {
+            body.setLinearVelocity(vel.x * 2.5f, body.getLinearVelocity().y);
+            states.isSliding = false;
+        }
+        else if (states.isMovingLeft) {
             body.setLinearVelocity(-vel.x, body.getLinearVelocity().y);
         }
-        if (states.isMovingRight) {
+        else if (states.isMovingRight) {
             body.setLinearVelocity(vel.x, body.getLinearVelocity().y);
         }
     }

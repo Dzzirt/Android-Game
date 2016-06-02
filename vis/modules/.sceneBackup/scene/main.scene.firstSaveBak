@@ -53,7 +53,7 @@
       "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 2,
+  "activeLayerId": 3,
   "groupIds": [
     {
       "1": "background",
@@ -254,8 +254,8 @@
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 16.01026,
-              "y": 0.8421335,
+              "x": 31.997753,
+              "y": 0.83966386,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
@@ -279,8 +279,8 @@
                 "y": 0.67834795
               },
               {
-                "x": 16.01026,
-                "y": 0.8421335
+                "x": 31.997753,
+                "y": 0.83966386
               }
             ]
           ],
@@ -6524,51 +6524,6 @@
           "@class": "VisID"
         },
         {
-          "vertices": [
-            {
-              "x": 15.999258,
-              "y": 0.69657737,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 31.993898,
-              "y": 0.68016076,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 32.005707,
-              "y": 0.84394634,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 15.995415,
-              "y": 0.8464127,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 15.995415,
-                "y": 0.8464127
-              },
-              {
-                "x": 15.999258,
-                "y": 0.69657737
-              },
-              {
-                "x": 31.993898,
-                "y": 0.68016076
-              },
-              {
-                "x": 32.005707,
-                "y": 0.84394634
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        },
-        {
           "bodyType": "StaticBody",
           "friction": 1.0,
           "density": 1.0,
@@ -9503,16 +9458,16 @@
     {
       "components": [
         {
-          "x": 0.15007816,
-          "y": 0.042899236,
-          "scaleX": 0.4,
-          "scaleY": 0.4,
+          "x": 0.16070732,
+          "y": 0.095545955,
+          "scaleX": 0.7,
+          "scaleY": 0.7,
           "rotation": 0.0,
           "@class": "Transform"
         },
         {
-          "originX": 0.525,
-          "originY": 0.525,
+          "originX": 0.0,
+          "originY": 0.0,
           "@class": "Origin"
         },
         {
@@ -9551,7 +9506,53 @@
           "@class": "Renderable"
         },
         {
+          "id": "leftArrow",
           "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 0.01902175,
+              "y": -0.040044397,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.8936167,
+              "y": -0.019625843,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.89570725,
+              "y": 0.8305459,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.01902175,
+              "y": 0.83114755,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 0.01902175,
+                "y": 0.83114755
+              },
+              {
+                "x": 0.01902175,
+                "y": -0.040044397
+              },
+              {
+                "x": 0.8936167,
+                "y": -0.019625843
+              },
+              {
+                "x": 0.89570725,
+                "y": 0.8305459
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"
@@ -9559,10 +9560,10 @@
     {
       "components": [
         {
-          "x": 3.1635697,
-          "y": 0.5054213,
+          "x": 4.5647774,
+          "y": 0.46910053,
           "scaleX": 0.3,
-          "scaleY": 0.3,
+          "scaleY": 0.35,
           "rotation": 0.0,
           "@class": "Transform"
         },
@@ -9607,7 +9608,53 @@
           "@class": "Renderable"
         },
         {
+          "id": "jumpArrow",
           "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 4.5647774,
+              "y": 0.46910053,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.9881983,
+              "y": 0.4705429,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.9881983,
+              "y": 0.8352556,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.5647774,
+              "y": 0.83660054,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 4.5647774,
+                "y": 0.83660054
+              },
+              {
+                "x": 4.5647774,
+                "y": 0.46910053
+              },
+              {
+                "x": 4.9881983,
+                "y": 0.4705429
+              },
+              {
+                "x": 4.9881983,
+                "y": 0.8352556
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"
@@ -9615,10 +9662,10 @@
     {
       "components": [
         {
-          "x": 3.163606,
-          "y": 0.15449092,
+          "x": 4.5662556,
+          "y": 0.09306367,
           "scaleX": 0.3,
-          "scaleY": 0.3,
+          "scaleY": 0.35,
           "rotation": 0.0,
           "@class": "Transform"
         },
@@ -9663,7 +9710,53 @@
           "@class": "Renderable"
         },
         {
+          "id": "slidingArrow",
           "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 4.5662556,
+              "y": 0.09306367,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.990614,
+              "y": 0.093753666,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.990614,
+              "y": 0.46088162,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.5662556,
+              "y": 0.46056366,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 4.5662556,
+                "y": 0.46056366
+              },
+              {
+                "x": 4.5662556,
+                "y": 0.09306367
+              },
+              {
+                "x": 4.990614,
+                "y": 0.093753666
+              },
+              {
+                "x": 4.990614,
+                "y": 0.46088162
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"
@@ -9671,16 +9764,16 @@
     {
       "components": [
         {
-          "x": 3.4268796,
-          "y": 0.0374794,
+          "x": 3.6406682,
+          "y": 0.095545955,
           "scaleX": 0.4,
-          "scaleY": 0.4,
+          "scaleY": 0.7,
           "rotation": 0.0,
           "@class": "Transform"
         },
         {
-          "originX": 0.525,
-          "originY": 0.525,
+          "originX": 0.0,
+          "originY": 0.0,
           "@class": "Origin"
         },
         {
@@ -9719,7 +9812,53 @@
           "@class": "Renderable"
         },
         {
+          "id": "leftAtkArrow",
           "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 3.6406682,
+              "y": 0.095545955,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.060668,
+              "y": 0.095545955,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.060668,
+              "y": 0.8305459,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 3.6406682,
+              "y": 0.8305459,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 3.6406682,
+                "y": 0.8305459
+              },
+              {
+                "x": 3.6406682,
+                "y": 0.095545955
+              },
+              {
+                "x": 4.060668,
+                "y": 0.095545955
+              },
+              {
+                "x": 4.060668,
+                "y": 0.8305459
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"
@@ -9727,16 +9866,16 @@
     {
       "components": [
         {
-          "x": 3.9606304,
-          "y": 0.0374363,
+          "x": 4.080764,
+          "y": 0.09752521,
           "scaleX": 0.4,
-          "scaleY": 0.4,
+          "scaleY": 0.7,
           "rotation": 0.0,
           "@class": "Transform"
         },
         {
-          "originX": 0.525,
-          "originY": 0.525,
+          "originX": 0.0,
+          "originY": 0.0,
           "@class": "Origin"
         },
         {
@@ -9775,7 +9914,53 @@
           "@class": "Renderable"
         },
         {
+          "id": "rightAtkArrow",
           "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 4.080764,
+              "y": 0.09752521,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.5606875,
+              "y": 0.098584324,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.5606875,
+              "y": 0.8328402,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.080764,
+              "y": 0.83252513,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 4.080764,
+                "y": 0.83252513
+              },
+              {
+                "x": 4.080764,
+                "y": 0.09752521
+              },
+              {
+                "x": 4.5606875,
+                "y": 0.098584324
+              },
+              {
+                "x": 4.5606875,
+                "y": 0.8328402
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"
@@ -9783,16 +9968,16 @@
     {
       "components": [
         {
-          "x": 0.76528776,
-          "y": 0.037515193,
-          "scaleX": 0.4,
-          "scaleY": 0.4,
+          "x": 0.9888141,
+          "y": 0.095545955,
+          "scaleX": 0.7,
+          "scaleY": 0.7,
           "rotation": 0.0,
           "@class": "Transform"
         },
         {
-          "originX": 0.525,
-          "originY": 0.525,
+          "originX": 0.0,
+          "originY": 0.0,
           "@class": "Origin"
         },
         {
@@ -9831,7 +10016,53 @@
           "@class": "Renderable"
         },
         {
+          "id": "rightArrow",
           "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 0.9412599,
+              "y": 0.017808229,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 1.8430797,
+              "y": 0.021211296,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 1.8464828,
+              "y": 0.83114755,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.95487237,
+              "y": 0.84135675,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 0.95487237,
+                "y": 0.84135675
+              },
+              {
+                "x": 0.9412599,
+                "y": 0.017808229
+              },
+              {
+                "x": 1.8430797,
+                "y": 0.021211296
+              },
+              {
+                "x": 1.8464828,
+                "y": 0.83114755
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"
