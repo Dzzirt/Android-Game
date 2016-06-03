@@ -10,6 +10,7 @@ import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.Contact;
 import com.badlogic.gdx.physics.box2d.ContactImpulse;
 import com.badlogic.gdx.physics.box2d.ContactListener;
+import com.badlogic.gdx.physics.box2d.Filter;
 import com.badlogic.gdx.physics.box2d.Fixture;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.Manifold;
@@ -19,6 +20,7 @@ import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.Velocity;
 import com.dark.castle.Utils;
 import com.kotcrab.vis.runtime.component.PhysicsBody;
+import com.kotcrab.vis.runtime.component.VisID;
 import com.kotcrab.vis.runtime.component.VisPolygon;
 import com.kotcrab.vis.runtime.system.CameraManager;
 import com.kotcrab.vis.runtime.system.VisIDManager;
@@ -130,6 +132,13 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
         Rectangle sideSensorRect = new Rectangle(halfWidth, halfHeight, halfWidth * 1.6f, halfHeight * 0.95f);
         CreateSensor(e, bottomSensorRect, "bottomSensor");
         CreateSensor(e, sideSensorRect, "sideSensor");
+        String id = e.getComponent(VisID.class).id;
+
+        if (id.equals("player") || id.equals("enemy")) {
+            for (Fixture f : e.getComponent(PhysicsBody.class).body.getFixtureList()) {
+                f.setFilterData(new Filter(){{groupIndex = -1;}});
+            }
+        }
     }
 
     private void CreateSensor(Entity e, Rectangle bounds, Object userData) {

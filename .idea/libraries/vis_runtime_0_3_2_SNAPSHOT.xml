@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="vis-runtime-0.3.2-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/16748c4660d1f0d238bdd7f8abcb68c56db96fbb/vis-runtime-0.3.2-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/3c6332c195c43abc15c0b02f8c89b675725ff841/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/3c6332c195c43abc15c0b02f8c89b675725ff841/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2d38163282256a0c95a571f411e74d9d3f1d3e7c/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/3c6332c195c43abc15c0b02f8c89b675725ff841/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/3c6332c195c43abc15c0b02f8c89b675725ff841/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
