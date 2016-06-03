@@ -5,6 +5,7 @@ import com.artemis.BaseEntitySystem;
 import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.JsonReader;
 import com.badlogic.gdx.utils.JsonValue;
 import com.dark.castle.Components.AnimationStates;
@@ -15,6 +16,7 @@ import com.dark.castle.Components.Velocity;
 import com.dark.castle.DarkCastle;
 import com.kotcrab.vis.runtime.assets.SpriterAsset;
 import com.kotcrab.vis.runtime.component.AssetReference;
+import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.Variables;
 import com.kotcrab.vis.runtime.component.VisID;
 import com.kotcrab.vis.runtime.component.VisSprite;
@@ -30,6 +32,7 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
     private ComponentMapper<AssetReference> assetRefCmp;
     private ComponentMapper<VisSprite> spriteCmp;
     private ComponentMapper<VisSpriter> spriterCmp;
+    private ComponentMapper<Transform> transformCmp;
 
     private ComponentMapper<Velocity> horVelCmp;
     private ComponentMapper<MovingPlatform> movingPlatformCmp;
@@ -58,7 +61,7 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
         AddMovingPlatform(entityId, cfg.get(idComponentMapper.get(entityId).id + index));
         AddPhysicStates(entityId);
         AddButton(entityId);
-        AddSpriter(entityId, cfg.get(idComponentMapper.get(entityId).id));
+        //AddSpriter(entityId, cfg.get(idComponentMapper.get(entityId).id));
         AddAnimationStates(entityId);
     }
 
@@ -96,7 +99,7 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
         }
     }
 
-    private void AddSpriter(int entityId, JsonValue val) {
+    /*private void AddSpriter(int entityId, JsonValue val) {
 
         VisID id = idComponentMapper.get(entityId);
         if (id.id.equals("player")) {
@@ -105,18 +108,30 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
             visSpriter.getPlayer().scale(0.01f);
             visSpriter.getPlayer().setAnimation("Stop");
             visSpriter.setAnimationPlaying(true);
-            assetRefCmp.create(entityId).asset = new SpriterAsset("spriter/Player/elisa.scml", 0.01f);
+            assetRefCmp.create(entityId).asset = new SpriterAsset(val.getString("animPath"), 0.01f);
             spriteCmp.get(entityId).setSize(0, 0);
+            Rectangle boundingRectangle = visSpriter.getBoundingRectangle();
             world.getEntity(entityId).edit().add(visSpriter);
         }
-    }
+        if (id.id.equals("enemy")) {
+            SpriterData spriterData = DarkCastle.manager.get(val.getString("animPath"));
+            VisSpriter visSpriter = new VisSpriter(spriterData.loader, spriterData.data, 0.01f);
+            visSpriter.getPlayer().scale(0.01f);
+            visSpriter.getPlayer().setAnimation("Stop");
+            visSpriter.setAnimationPlaying(true);
+            assetRefCmp.create(entityId).asset = new SpriterAsset(val.getString("animPath"), 0.01f);
+            spriteCmp.get(entityId).setSize(0, 0);
+            visSpriter.getPlayer().setPivot(1, 1*//*-76, 2.9f*//*);
+            world.getEntity(entityId).edit().add(visSpriter);
+        }
+    }*/
 
     private void AddAnimationStates(int entityId) {
         VisID id = idComponentMapper.get(entityId);
-        Boolean stop;
-        if (id.id.equals("player") || id.id.equals("enemy")) {
-           stop = animStatesCmp.create(entityId).getState("Stop").isPlaying;
+
+        if (id.id.equals("player") || id.id.equals("enemy") || id.id.equals("test")) {
+           animStatesCmp.create(entityId);
         }
-        System.out.println(1);
+
     }
 }

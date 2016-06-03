@@ -2,20 +2,46 @@
 <project version="4">
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3c5ad1-095e-47b8-8a27-0815860bd9de" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PhysicSpriterUpdateSystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterPhysicCreationSystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Utils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterRenderSystem.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/gfx/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/gfx/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/Thumbs.db" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/Attack/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/textures.png" afterPath="$PROJECT_DIR$/android/assets/textures.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/gfx/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/gfx/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/Thumbs.db" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/Attack/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.textureCache/cache.png" afterPath="$PROJECT_DIR$/vis/modules/.textureCache/cache.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/config.json" afterPath="$PROJECT_DIR$/android/assets/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/scene/main.scene" afterPath="$PROJECT_DIR$/android/assets/scene/main.scene" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/spriter/Goblin_enemy/Goblin_enemy.autosave.scml" afterPath="$PROJECT_DIR$/android/assets/spriter/Goblin_enemy/Goblin_enemy.autosave.scml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/spriter/Goblin_enemy/Goblin_enemy_smallhead.scml" afterPath="$PROJECT_DIR$/android/assets/spriter/Goblin_enemy/Goblin_enemy_smallhead.scml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/spriter/Player/elisa.autosave.scml" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/elisa.autosave.scml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/spriter/Player/elisa.scml" afterPath="$PROJECT_DIR$/android/assets/spriter/Player/elisa.scml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/textures.atlas" afterPath="$PROJECT_DIR$/android/assets/textures.atlas" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentLoader.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentLoader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java" afterPath="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/config.json" afterPath="$PROJECT_DIR$/vis/assets/config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/scene/main.scene" afterPath="$PROJECT_DIR$/vis/assets/scene/main.scene" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/spriter/Goblin_enemy/Goblin_enemy.autosave.scml" afterPath="$PROJECT_DIR$/vis/assets/spriter/Goblin_enemy/Goblin_enemy.autosave.scml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/spriter/Goblin_enemy/Goblin_enemy_smallhead.scml" afterPath="$PROJECT_DIR$/vis/assets/spriter/Goblin_enemy/Goblin_enemy_smallhead.scml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa.autosave.scml" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa.autosave.scml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa.scml" afterPath="$PROJECT_DIR$/vis/assets/spriter/Player/elisa.scml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.metadata/assetsUIMetadata" afterPath="$PROJECT_DIR$/vis/modules/.metadata/assetsUIMetadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.metadata/sceneMetadata" afterPath="$PROJECT_DIR$/vis/modules/.metadata/sceneMetadata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.bak" afterPath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.firstSaveBak" afterPath="$PROJECT_DIR$/vis/modules/.sceneBackup/scene/main.scene.firstSaveBak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vis/modules/.textureCache/cache.atlas" afterPath="$PROJECT_DIR$/vis/modules/.textureCache/cache.atlas" />
     </list>
     <ignored path="Android-Game.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,10 +86,42 @@
         <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpriterRenderSystem.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/render/SpriterRenderSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInputSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimationSystem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0714285">
+              <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,17 +130,17 @@
         <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInputSystem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java">
+      <file leaf-file-name="SpriterPhysicCreationSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterPhysicCreationSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9289618">
-              <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,31 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimationSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UiUpdatePositionSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UiUpdatePositionSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimationStates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,12 +160,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhysicStates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/PhysicStates.java">
+      <file leaf-file-name="PhysicSpriterUpdateSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PhysicSpriterUpdateSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraTrackingSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisIDManager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/VisIDManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="e#2442#2443#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2405,21 +2467,24 @@
         <option value="$PROJECT_DIR$/android/src/com/dark/castle/AndroidLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Components/MovingPlatform.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlatformMovingSystem.java" />
-        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/ConfigParser.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentsLoader.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/GameConfigManager.java" />
-        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterRenderSystem.java" />
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android/assets/config.json" />
-        <option value="$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Components/State.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Components/PhysicStates.java" />
-        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterRenderSystem.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentLoader.java" />
-        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterPhysicCreationSystem.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Utils.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/PhysicSpriterUpdateSystem.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java" />
         <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java" />
+        <option value="$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java" />
       </list>
     </option>
   </component>
@@ -2620,20 +2685,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-Game" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -2645,9 +2696,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="FBAZCY19Z739" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="SearchEverywhereHistoryKey" value="SpriterRe&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/com/kotcrab/vis/runtime/system/render/SpriterRenderSystem.class&#10;&quot;spriter/Player/elisa.scml&quot;&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="SpriteR&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/com/kotcrab/vis/runtime/system/render/SpriteRenderSystem.class&#10;SpriterR&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/render/SpriterRenderSystem.java&#10;Spriter&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/com/kotcrab/vis/runtime/util/SpriterDataLoader.class&#10;PhysicSpriteU&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/physics/PhysicsSpriteUpdateSystem.java&#10;SpriteRe&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2d38163282256a0c95a571f411e74d9d3f1d3e7c/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/render/SpriteRenderSystem.java&#10;SpriterRe&#9;FILE&#9;jar://C:/Users/DzzirtNik/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/com/kotcrab/vis/runtime/system/render/SpriterRenderSystem.class&#10;&quot;spriter/Player/elisa.scml&quot;&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Application.DesktopLauncher">
+  <component name="RunManager" selected="Android Application.android">
     <configuration default="false" name="DesktopLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2964,19 +3015,20 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2549168" sideWeight="0.14488636" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.334471" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6177474" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24205749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.8551136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2988,7 +3040,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3011,31 +3062,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java</url>
-          <line>149</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java</url>
-          <line>135</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java</url>
-          <line>58</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentLoader.java</url>
-          <line>117</line>
+          <url>file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PhysicSpriterUpdateSystem.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="53" />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="android">
@@ -3044,126 +3089,11 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/PhysicStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.2/b6c7422c6740f86a9a84fdcbc4c62a1f46db317d/gdx-1.9.2-sources.jar!/com/badlogic/gdx/utils/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33246753">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38141027">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0865386">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/res/drawable-hdpi/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build/generated/source/r/debug/com/dark/castle/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4827585">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.2/b6c7422c6740f86a9a84fdcbc4c62a1f46db317d/gdx-1.9.2-sources.jar!/com/badlogic/gdx/utils/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36734694">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.2/b6c7422c6740f86a9a84fdcbc4c62a1f46db317d/gdx-1.9.2-sources.jar!/com/badlogic/gdx/utils/ObjectMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/Velocity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.onedaybeard.artemis/artemis-odb/1.3.1/ad594bbb0b2a9e5be9c12659e3c697f3a76bdecb/artemis-odb-1.3.1-sources.jar!/com/artemis/BasicComponentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.2/888ddbf116b94ab6dbe07178e035091031425b67/gdx-backend-lwjgl-1.9.2-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3841642">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.onedaybeard.artemis/artemis-odb/1.3.1/ad594bbb0b2a9e5be9c12659e3c697f3a76bdecb/artemis-odb-1.3.1-sources.jar!/com/artemis/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3655914">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/Bounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/com/dark/castle/AndroidLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3171,6 +3101,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3178,6 +3109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3193,6 +3125,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3200,6 +3133,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3207,6 +3141,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.117486335">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3214,13 +3149,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.21505377">
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/scene/SceneFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3228,13 +3157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.7777777">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/render/SpriterRenderSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -3261,20 +3183,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlatformMovingSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.onedaybeard.artemis/artemis-odb/1.3.1/ad594bbb0b2a9e5be9c12659e3c697f3a76bdecb/artemis-odb-1.3.1-sources.jar!/com/artemis/EntityEdit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3293,6 +3206,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="646" column="18" selection-start-line="646" selection-start-column="18" selection-end-line="646" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3300,6 +3214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15232974">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3307,6 +3222,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21326165">
           <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3314,13 +3230,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51792115">
           <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/component/VisSpriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21326165">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#1117#1118#0" expanded="false" />
+            <element signature="e#1142#1143#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3328,6 +3241,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78673834">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1254#1255#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3339,24 +3256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterRenderSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UiUpdatePositionSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3365,36 +3264,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/MovingPlatform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -3415,21 +3288,249 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/spriter/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3103447">
+          <caret line="881" column="29" selection-start-line="881" selection-start-column="29" selection-end-line="881" selection-end-column="29" />
+          <folding>
+            <element signature="e#31685#31686#0" expanded="true" />
+            <element signature="e#31738#31739#0" expanded="true" />
+            <element signature="e#31946#31947#0" expanded="true" />
+            <element signature="e#31999#32000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2d38163282256a0c95a571f411e74d9d3f1d3e7c/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/render/SpriteRenderSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2062#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/component/VisSpriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/component/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2d38163282256a0c95a571f411e74d9d3f1d3e7c/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/DirtyCleanerSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/physics/PhysicsSpriteUpdateSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#1897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/scene/SceneFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1122715">
+          <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+          <folding>
+            <element signature="e#7690#7916#0" expanded="false" />
+            <element signature="e#7915#7916#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/scene/SceneConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1775457">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/scene/SceneLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33420366">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2d38163282256a0c95a571f411e74d9d3f1d3e7c/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/scene/SceneFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5796344">
+          <caret line="146" column="23" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Components/AnimationStates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3916449">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.9.2/6e1c72c4a48cbde19f9584bfb8d2d09572067af4/gdx-box2d-1.9.2-sources.jar!/com/badlogic/gdx/physics/box2d/PolygonShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/com/kotcrab/vis/runtime/util/SpriterDataLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.060606">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlatformMovingSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36728394">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AdditionalComponentLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.onedaybeard.artemis/artemis-odb/1.3.1/ad594bbb0b2a9e5be9c12659e3c697f3a76bdecb/artemis-odb-1.3.1-sources.jar!/com/artemis/EntitySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.672043">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/2f474e9be7079f7142ceb6979f2ea91364c0040c/vis-runtime-0.3.2-SNAPSHOT.jar!/com/kotcrab/vis/runtime/system/render/SpriteRenderSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PlayerMovementSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/DarkCastle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/SpriterPhysicCreationSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/render/SpriterRenderSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kotcrab.vis/vis-runtime/0.3.2-SNAPSHOT/8963af96187070060be94a0c10fa00202f293448/vis-runtime-0.3.2-SNAPSHOT-sources.jar!/com/kotcrab/vis/runtime/system/VisIDManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#2442#2443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/PhysicSpriterUpdateSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/CameraTrackingSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/UserInputSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9289618">
-          <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/dark/castle/Systems/AnimationSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0714285">
+          <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>

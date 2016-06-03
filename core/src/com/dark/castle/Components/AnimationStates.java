@@ -24,6 +24,7 @@ public class AnimationStates extends Component {
     public ArrayList<StateData> priorityList = new ArrayList<StateData>() {
         {
             add(new StateData("Death", false, false));
+            add(new StateData("Hurt", false, false));
             add(new StateData("Attack", false, false));
             add(new StateData("Jump", false, false));
             add(new StateData("Slide", false, false));

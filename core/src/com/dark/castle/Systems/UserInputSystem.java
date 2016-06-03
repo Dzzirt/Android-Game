@@ -11,6 +11,7 @@ import com.badlogic.gdx.math.Vector3;
 import com.dark.castle.Components.Button;
 import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.AnimationStates;
+import com.dark.castle.Utils;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisID;
 import com.kotcrab.vis.runtime.component.VisPolygon;
@@ -76,34 +77,34 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         Vector3 touchPos = GetInWorldCoordinates(screenX, screenY);
-        if (GetBounds(leftArrow).contains(touchPos.x, touchPos.y)&& pointerRight == NONE) {
+        if (Utils.GetBounds(leftArrow).contains(touchPos.x, touchPos.y)&& pointerRight == NONE) {
             pointerLeft = pointer;
             states.getState("Run").isPlaying = true;
             states.getState("Run").isFlip = true;
             player.getComponent(PhysicStates.class).isMovingLeft = true;
         }
-        else if (GetBounds(rightArrow).contains(touchPos.x, touchPos.y) && pointerLeft == NONE) {
+        else if (Utils.GetBounds(rightArrow).contains(touchPos.x, touchPos.y) && pointerLeft == NONE) {
             pointerRight = pointer;
             states.getState("Run").isPlaying = true;
             states.getState("Run").isFlip = false;
             player.getComponent(PhysicStates.class).isMovingRight = true;
         }
-        else if (GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
+        else if (Utils.GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
             pointerJump = pointer;
             states.getState("Jump").isPlaying = true;
             player.getComponent(PhysicStates.class).isJumping = true;
         }
-        else if (GetBounds(slidingArrow).contains(touchPos.x, touchPos.y)) {
+        else if (Utils.GetBounds(slidingArrow).contains(touchPos.x, touchPos.y)) {
             pointerSlide = pointer;
-            states.getState("Slide").isPlaying = true;
-            player.getComponent(PhysicStates.class).isSliding = true;
+            states.getState("Hurt").isPlaying = true;
+            //player.getComponent(PhysicStates.class).isSliding = true;
         }
-        else if (GetBounds(leftAtkArrow).contains(touchPos.x, touchPos.y)) {
+        else if (Utils.GetBounds(leftAtkArrow).contains(touchPos.x, touchPos.y)) {
             pointerLeftAtk = pointer;
             states.getState("Attack").isPlaying = true;
             states.getState("Attack").isFlip = true;
         }
-        else if (GetBounds(rightAtkArrow).contains(touchPos.x, touchPos.y)) {
+        else if (Utils.GetBounds(rightAtkArrow).contains(touchPos.x, touchPos.y)) {
             pointerRightAtk = pointer;
             states.getState("Attack").isPlaying = true;
             states.getState("Attack").isFlip = false;
@@ -111,15 +112,7 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
         return true;
     }
 
-    private Rectangle GetBounds(Entity entity) {
-        VisPolygon polygon = entity.getComponent(VisPolygon.class);
-        Transform transform = entity.getComponent(Transform.class);
-        float x = transform.getX();
-        float y = transform.getY();
-        float width = polygon.vertices.get(1).x - polygon.vertices.get(0).x;
-        float height = polygon.vertices.get(3).y - polygon.vertices.get(0).y;
-        return new Rectangle(x, y, width, height);
-    }
+
 
     private Vector3 GetInWorldCoordinates(int screenX, int screenY) {
         Vector3 unproject = new Vector3(screenX, screenY, 0);

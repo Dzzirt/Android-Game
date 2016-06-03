@@ -5,6 +5,7 @@ import com.artemis.ComponentMapper;
 import com.artemis.Entity;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector2;
+import com.kotcrab.vis.runtime.component.PhysicsBody;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisPolygon;
 import com.kotcrab.vis.runtime.system.CameraManager;
@@ -35,12 +36,12 @@ public class CameraTrackingSystem extends BaseSystem {
     }
 
     public void SetCameraPositionRelativeToPlayer(Entity entity) {
-        Transform playerTransform = mTransform.get(entity);
+        PhysicsBody physicsBody = entity.getComponent(PhysicsBody.class);
         VisPolygon playerPolygon = polygon.get(entity);
         float width = playerPolygon.vertices.get(1).x - playerPolygon.vertices.get(0).x;
         float height = playerPolygon.vertices.get(3).y - playerPolygon.vertices.get(0).y;
-        camera.position.x = playerTransform.getX() + width / 2.f;
-        camera.position.y = playerTransform.getY() + height;
+        camera.position.x = physicsBody.body.getPosition().x + width / 2.f;
+        camera.position.y = physicsBody.body.getPosition().y + height;
     }
     public void MoveCameraInsideScene(OrthographicCamera camera) {
         if (camera.position.x - camera.viewportWidth / 2.f < 0) {

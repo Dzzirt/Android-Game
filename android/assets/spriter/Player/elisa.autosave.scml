@@ -33,8 +33,56 @@
         <file id="1" name="Stop/elisaStop1.png" width="34" height="40" pivot_x="0.627172" pivot_y="0.529239"/>
         <file id="2" name="Stop/elisaStop2.png" width="33" height="39" pivot_x="0.627172" pivot_y="0.539239"/>
     </folder>
+    <folder id="5" name="Hurt">
+        <file id="0" name="Hurt/upper.png" width="34" height="34" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Hurt/leftLeg.png" width="13" height="16" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Hurt/rightLeg.png" width="11" height="16" pivot_x="0" pivot_y="1"/>
+    </folder>
     <entity id="0" name="Player">
-        <animation id="0" name="Jump" length="600" interval="100" looping="false">
+        <obj_info name="bone_000" type="bone" w="18.0711" h="10"/>
+        <animation id="0" name="Hurt" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="199">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="leftLeg">
+                <key id="0" spin="0">
+                    <object folder="5" file="1" x="7" y="16" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="rightLeg">
+                <key id="0" spin="0">
+                    <object folder="5" file="2" x="23" y="16" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="upper_000">
+                <key id="0" spin="0">
+                    <object folder="5" file="0" x="-9.919705" y="-18.706669" angle="84.093859"/>
+                </key>
+                <key id="1" time="199" spin="0">
+                    <object folder="5" file="0" x="-10.028696" y="-21.081396" angle="84.093859"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="0" name="bone_000" object_type="bone">
+                <key id="0">
+                    <bone x="19.628099" y="33.057851" angle="275.906141"/>
+                </key>
+                <key id="1" time="199" spin="-1">
+                    <bone x="19" y="33" angle="285.575237"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Jump" length="600" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -54,7 +102,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Attack" length="450" interval="100" looping="false">
+        <animation id="2" name="Attack" length="450" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -106,7 +154,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="Run" length="800" interval="100">
+        <animation id="3" name="Run" length="800" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
@@ -174,7 +222,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="Stop" length="900" interval="100">
+        <animation id="4" name="Stop" length="900" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -202,12 +250,12 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Slide" length="400" interval="100" looping="false">
+        <animation id="5" name="Slide" length="200" interval="100" looping="false">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="198">
+                <key id="1" time="99">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
             </mainline>
@@ -217,7 +265,7 @@
                 </key>
             </timeline>
             <timeline id="1" name="elisaDeath1_000">
-                <key id="0" time="198" spin="0">
+                <key id="0" time="99" spin="0">
                     <object folder="1" file="1" x="16.387892" y="20.955335" pivot_x="0.5651" pivot_y="0.698511" angle="0"/>
                 </key>
             </timeline>

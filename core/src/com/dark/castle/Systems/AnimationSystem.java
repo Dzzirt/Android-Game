@@ -6,6 +6,7 @@ import com.artemis.systems.IteratingSystem;
 import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.AnimationStates;
 import com.kotcrab.vis.runtime.component.Origin;
+import com.kotcrab.vis.runtime.component.PhysicsBody;
 import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisPolygon;
 import com.kotcrab.vis.runtime.component.VisSpriter;
@@ -25,6 +26,7 @@ public class AnimationSystem extends IteratingSystem {
     private ComponentMapper<VisPolygon> polygonCmp;
     private ComponentMapper<Origin> originCmp;
     private ComponentMapper<PhysicStates> physicStatesCmp;
+    private ComponentMapper<PhysicsBody> physicBodyCmp;
 
     public AnimationSystem() {
         super(Aspect.all(VisSpriter.class, Transform.class, AnimationStates.class));
@@ -34,14 +36,18 @@ public class AnimationSystem extends IteratingSystem {
     @Override
     protected void process(int entityId) {
         final VisSpriter visSpriter = spriterCmp.get(entityId);
-        PhysicStates physicStates = physicStatesCmp.get(entityId);
         Transform transform = transformrCmp.get(entityId);
         VisPolygon polygon = polygonCmp.get(entityId);
+        PhysicsBody physicsBody = physicBodyCmp.get(entityId);
         final AnimationStates states = statesCmp.get(entityId);
-        visSpriter.updateValues(transform.getX() + (polygon.vertices.get(1).x - polygon.vertices.get(0).x) / 2.f,
-                transform.getY() + (polygon.vertices.get(3).y - polygon.vertices.get(1).y) / 2.f, 0);
 
+        PlayerMovementSystem.JumpData jumpData = (PlayerMovementSystem.JumpData) physicsBody.body.getUserData();
+        if (jumpData.canJump) {
+            states.getState("Jump").isPlaying = false;
+        } else {
+            states.getState("Jump").isPlaying = true;
 
+        }
         for (AnimationStates.StateData data : states.priorityList) {
             if (data.isPlaying) {
                 visSpriter.getPlayer().setAnimation(data.name);
@@ -55,7 +61,7 @@ public class AnimationSystem extends IteratingSystem {
             @Override
             public void animationFinished(Animation animation) {
                 for (AnimationStates.StateData data : states.priorityList) {
-                    if (animation.name.equals(data.name) && data.name.equals("Slide")) {
+                    if (animation.name.equals(data.name) && (data.name.equals("Slide") || data.name.equals("Hurt"))) {
                         data.isPlaying = false;
                         break;
                     }
