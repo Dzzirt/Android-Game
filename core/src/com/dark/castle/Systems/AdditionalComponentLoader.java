@@ -99,33 +99,6 @@ public class AdditionalComponentLoader extends BaseEntitySystem{
         }
     }
 
-    /*private void AddSpriter(int entityId, JsonValue val) {
-
-        VisID id = idComponentMapper.get(entityId);
-        if (id.id.equals("player")) {
-            SpriterData spriterData = DarkCastle.manager.get(val.getString("animPath"));
-            VisSpriter visSpriter = new VisSpriter(spriterData.loader, spriterData.data, 0.01f);
-            visSpriter.getPlayer().scale(0.01f);
-            visSpriter.getPlayer().setAnimation("Stop");
-            visSpriter.setAnimationPlaying(true);
-            assetRefCmp.create(entityId).asset = new SpriterAsset(val.getString("animPath"), 0.01f);
-            spriteCmp.get(entityId).setSize(0, 0);
-            Rectangle boundingRectangle = visSpriter.getBoundingRectangle();
-            world.getEntity(entityId).edit().add(visSpriter);
-        }
-        if (id.id.equals("enemy")) {
-            SpriterData spriterData = DarkCastle.manager.get(val.getString("animPath"));
-            VisSpriter visSpriter = new VisSpriter(spriterData.loader, spriterData.data, 0.01f);
-            visSpriter.getPlayer().scale(0.01f);
-            visSpriter.getPlayer().setAnimation("Stop");
-            visSpriter.setAnimationPlaying(true);
-            assetRefCmp.create(entityId).asset = new SpriterAsset(val.getString("animPath"), 0.01f);
-            spriteCmp.get(entityId).setSize(0, 0);
-            visSpriter.getPlayer().setPivot(1, 1*//*-76, 2.9f*//*);
-            world.getEntity(entityId).edit().add(visSpriter);
-        }
-    }*/
-
     private void AddAnimationStates(int entityId) {
         VisID id = idComponentMapper.get(entityId);
 

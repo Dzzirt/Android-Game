@@ -3914,8 +3914,8 @@
     {
       "components": [
         {
-          "x": 2.3661,
-          "y": 0.9562,
+          "x": 1.1158824,
+          "y": 0.888417,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -3963,43 +3963,43 @@
         {
           "vertices": [
             {
-              "x": 2.3691905,
-              "y": 0.96586084,
+              "x": 1.1189728,
+              "y": 0.89807785,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.6957715,
-              "y": 0.96311635,
+              "x": 1.4455538,
+              "y": 0.89533335,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.6957715,
-              "y": 1.4680821,
+              "x": 1.4455538,
+              "y": 1.4002991,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.366446,
-              "y": 1.4680821,
+              "x": 1.1162283,
+              "y": 1.4002991,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 2.366446,
-                "y": 1.4680821
+                "x": 1.1162283,
+                "y": 1.4002991
               },
               {
-                "x": 2.3691905,
-                "y": 0.96586084
+                "x": 1.1189728,
+                "y": 0.89807785
               },
               {
-                "x": 2.6957715,
-                "y": 0.96311635
+                "x": 1.4455538,
+                "y": 0.89533335
               },
               {
-                "x": 2.6957715,
-                "y": 1.4680821
+                "x": 1.4455538,
+                "y": 1.4002991
               }
             ]
           ],
@@ -9355,8 +9355,8 @@
     {
       "components": [
         {
-          "x": 1.563,
-          "y": 1.2178,
+          "x": 1.8944,
+          "y": 0.8714,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -9371,10 +9371,10 @@
           "@class": "AssetReference"
         },
         {
-          "scale": 0.01,
-          "flipX": false,
+          "scale": -0.01,
+          "flipX": true,
           "flipY": false,
-          "playOnStart": false,
+          "playOnStart": true,
           "defaultAnimation": 2,
           "@class": "ProtoVisSpriter"
         },
@@ -9389,7 +9389,7 @@
         {
           "scale": 0.01,
           "animation": 2,
-          "playOnStart": false,
+          "playOnStart": true,
           "previewInEditor": false,
           "@class": "SpriterProperties"
         },
@@ -9403,43 +9403,43 @@
         {
           "vertices": [
             {
-              "x": 1.563,
-              "y": 1.2178,
+              "x": 1.8944,
+              "y": 0.8714,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.9030089,
-              "y": 1.2178,
+              "x": 2.2344084,
+              "y": 0.8714,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.9030089,
-              "y": 1.6278222,
+              "x": 2.2344084,
+              "y": 1.2814221,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.563,
-              "y": 1.6278222,
+              "x": 1.8944,
+              "y": 1.2814221,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 1.563,
-                "y": 1.6278222
+                "x": 1.8944,
+                "y": 1.2814221
               },
               {
-                "x": 1.563,
-                "y": 1.2178
+                "x": 1.8944,
+                "y": 0.8714
               },
               {
-                "x": 1.9030089,
-                "y": 1.2178
+                "x": 2.2344084,
+                "y": 0.8714
               },
               {
-                "x": 1.9030089,
-                "y": 1.6278222
+                "x": 2.2344084,
+                "y": 1.2814221
               }
             ]
           ],

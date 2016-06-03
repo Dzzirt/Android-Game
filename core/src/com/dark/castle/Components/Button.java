@@ -7,10 +7,4 @@ import com.artemis.Component;
  */
 public class Button extends Component{
 
-    public enum State {
-        NORMAL,
-        PRESSED
-    }
-
-    public State state = State.NORMAL;
 }

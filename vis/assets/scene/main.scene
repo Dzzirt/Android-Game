@@ -53,7 +53,7 @@
       "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 2,
+  "activeLayerId": 0,
   "groupIds": [
     {
       "1": "background",
@@ -3914,8 +3914,8 @@
     {
       "components": [
         {
-          "x": 1.1158824,
-          "y": 0.888417,
+          "x": 1.1159,
+          "y": 0.8884,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -3934,7 +3934,7 @@
           "flipX": false,
           "flipY": false,
           "playOnStart": true,
-          "defaultAnimation": 15,
+          "defaultAnimation": 0,
           "@class": "ProtoVisSpriter"
         },
         {
@@ -3947,7 +3947,7 @@
         },
         {
           "scale": 0.002,
-          "animation": 15,
+          "animation": 0,
           "playOnStart": true,
           "previewInEditor": false,
           "@class": "SpriterProperties"
@@ -3957,49 +3957,49 @@
           "@class": "Renderable"
         },
         {
-          "id": "player",
+          "id": "enemy",
           "@class": "VisID"
         },
         {
           "vertices": [
             {
-              "x": 1.1189728,
-              "y": 0.89807785,
+              "x": 1.1189904,
+              "y": 0.89806086,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.4455538,
-              "y": 0.89533335,
+              "x": 1.4455714,
+              "y": 0.89531636,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.4455538,
-              "y": 1.4002991,
+              "x": 1.4455714,
+              "y": 1.4002821,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.1162283,
-              "y": 1.4002991,
+              "x": 1.116246,
+              "y": 1.4002821,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 1.1162283,
-                "y": 1.4002991
+                "x": 1.116246,
+                "y": 1.4002821
               },
               {
-                "x": 1.1189728,
-                "y": 0.89807785
+                "x": 1.1189904,
+                "y": 0.89806086
               },
               {
-                "x": 1.4455538,
-                "y": 0.89533335
+                "x": 1.4455714,
+                "y": 0.89531636
               },
               {
-                "x": 1.4455538,
-                "y": 1.4002991
+                "x": 1.4455714,
+                "y": 1.4002821
               }
             ]
           ],
@@ -9375,7 +9375,7 @@
           "flipX": true,
           "flipY": false,
           "playOnStart": true,
-          "defaultAnimation": 2,
+          "defaultAnimation": 4,
           "@class": "ProtoVisSpriter"
         },
         {
@@ -9388,7 +9388,7 @@
         },
         {
           "scale": 0.01,
-          "animation": 2,
+          "animation": 4,
           "playOnStart": true,
           "previewInEditor": false,
           "@class": "SpriterProperties"
@@ -9398,6 +9398,7 @@
           "@class": "Renderable"
         },
         {
+          "id": "player",
           "@class": "VisID"
         },
         {
@@ -10170,130 +10171,6 @@
             ]
           ],
           "@class": "VisPolygon"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 1.9748707,
-          "y": 1.1980869,
-          "scaleX": 0.2,
-          "scaleY": 0.2,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 1.0
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/enemy.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 1.7,
-          "height": 2.3,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 2,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "01e407e2-cbdd-4745-ac5d-66e4393cd976",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "id": "enemy",
-          "@class": "VisID"
-        },
-        {
-          "vertices": [
-            {
-              "x": 1.9748707,
-              "y": 1.1980869,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 2.31487,
-              "y": 1.1980869,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 2.31487,
-              "y": 1.6580868,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 1.9748707,
-              "y": 1.6580868,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 1.9748707,
-                "y": 1.6580868
-              },
-              {
-                "x": 1.9748707,
-                "y": 1.1980869
-              },
-              {
-                "x": 2.31487,
-                "y": 1.1980869
-              },
-              {
-                "x": 2.31487,
-                "y": 1.6580868
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        },
-        {
-          "bodyType": "DynamicBody",
-          "friction": 1.0,
-          "density": 1.0,
-          "restitution": 0.0,
-          "sensor": false,
-          "gravityScale": 1.0,
-          "linearDamping": 0.0,
-          "angularDamping": 0.0,
-          "bullet": false,
-          "fixedRotation": true,
-          "active": true,
-          "sleepingAllowed": true,
-          "adjustOrigin": true,
-          "maskBits": -1,
-          "categoryBits": 1,
-          "@class": "PhysicsProperties"
         }
       ],
       "@class": "EntityScheme"

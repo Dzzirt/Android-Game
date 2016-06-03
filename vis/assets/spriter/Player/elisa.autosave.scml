@@ -236,17 +236,17 @@
             </mainline>
             <timeline id="0" name="elisaStop0">
                 <key id="0" spin="0">
-                    <object folder="4" file="0" x="21" y="21" pivot_x="0.627172" pivot_y="0.519239" angle="0"/>
+                    <object folder="4" file="0" x="-1" pivot_x="-0.011164" pivot_y="-0.000498" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="elisaStop1">
                 <key id="0" time="297" spin="0">
-                    <object folder="4" file="1" x="20" y="21" pivot_x="0.597803" pivot_y="0.518661" angle="0"/>
+                    <object folder="4" file="1" pivot_x="0.003129" pivot_y="0.005258" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="elisaStop2">
                 <key id="0" time="598" spin="0">
-                    <object folder="4" file="2" x="18" y="21" pivot_x="0.55315" pivot_y="0.53435" angle="0"/>
+                    <object folder="4" file="2" x="2" pivot_x="0.010267" pivot_y="0.008491" angle="0"/>
                 </key>
             </timeline>
         </animation>

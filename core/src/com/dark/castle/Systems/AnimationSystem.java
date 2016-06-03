@@ -36,8 +36,6 @@ public class AnimationSystem extends IteratingSystem {
     @Override
     protected void process(int entityId) {
         final VisSpriter visSpriter = spriterCmp.get(entityId);
-        Transform transform = transformrCmp.get(entityId);
-        VisPolygon polygon = polygonCmp.get(entityId);
         PhysicsBody physicsBody = physicBodyCmp.get(entityId);
         final AnimationStates states = statesCmp.get(entityId);
 
