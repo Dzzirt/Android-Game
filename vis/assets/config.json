@@ -4,25 +4,28 @@
 		"height": 13.5
 	},
 	"player": {
-		"animPath":	"spriter/Player/elisa.scml"
+		"animPath": "spriter/Player/elisa.scml",
 		"xVel": 1.8,
 		"yVel": 3,
-		"hp": 100
+		"health": 100,
+		"damage": [30, 50]
 	},
 	"enemy": {
-		"animPath":	"spriter/Goblin_enemy/Goblin_enemy_smallhead.scml"
+		"animPath": "spriter/Goblin_enemy/Goblin_enemy_smallhead.scml",
 		"xVel": 1.8,
-		"yVel": 1.0
+		"yVel": 1.0,
+		"health": 70,
+		"damage": [5, 15]
 	},
 	"hPlatform1": {
 		"xVel": 1.0,
 		"yVel": 0,
-		"distance": 1.5
+		"distance": 1.4
 	},
 
 	"vPlatform1": {
 		"xVel": 0,
 		"yVel": 1.0,
-		"distance": 5.0
+		"distance": 3.8
 	}
 }

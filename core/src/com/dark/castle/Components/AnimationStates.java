@@ -35,7 +35,7 @@ public class AnimationStates extends Component {
 
     public StateData getState(String name) {
         for (StateData data : priorityList) {
-            if (data.name == name) {
+            if (data.name.equals(name)) {
                 return data;
             }
         }

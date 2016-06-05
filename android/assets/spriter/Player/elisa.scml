@@ -2,7 +2,7 @@
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1" pixel_mode="1">
     <folder id="0" name="Attack">
         <file id="0" name="Attack/elisaAttack0.png" width="30" height="44" pivot_x="0" pivot_y="0"/>
-        <file id="1" name="Attack/elisaAttack5.png" width="44" height="39" pivot_x="0.35" pivot_y="0"/>
+        <file id="1" name="Attack/elisaAttack5.png" width="77" height="39" pivot_x="0.35" pivot_y="0"/>
         <file id="2" name="Attack/elisaAttack1.png" width="24" height="44" pivot_x="0" pivot_y="0"/>
         <file id="3" name="Attack/elisaAttack2.png" width="27" height="39" pivot_x="0" pivot_y="0"/>
         <file id="4" name="Attack/elisaAttack3.png" width="49" height="39" pivot_x="0" pivot_y="0"/>
@@ -57,12 +57,12 @@
             </mainline>
             <timeline id="0" name="leftLeg">
                 <key id="0" spin="0">
-                    <object folder="5" file="1" x="7" y="16" angle="0"/>
+                    <object folder="5" file="1" y="16" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="rightLeg">
                 <key id="0" spin="0">
-                    <object folder="5" file="2" x="23" y="16" angle="0"/>
+                    <object folder="5" file="2" x="15" y="16" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="upper_000">
@@ -70,12 +70,12 @@
                     <object folder="5" file="0" x="-9.919705" y="-18.706669" angle="84.093859"/>
                 </key>
                 <key id="1" time="199" spin="0">
-                    <object folder="5" file="0" x="-10.028696" y="-21.081396" angle="84.093859"/>
+                    <object folder="5" file="0" x="-12.176724" y="-28.787626" angle="84.093859"/>
                 </key>
             </timeline>
             <timeline id="3" obj="0" name="bone_000" object_type="bone">
                 <key id="0">
-                    <bone x="19.628099" y="33.057851" angle="275.906141"/>
+                    <bone x="12" y="33" angle="275.906141"/>
                 </key>
                 <key id="1" time="199" spin="-1">
                     <bone x="19" y="33" angle="285.575237"/>
@@ -125,7 +125,7 @@
             </mainline>
             <timeline id="0" name="elisaAttack0_001">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" x="14" y="21" pivot_x="0.472385" pivot_y="0.474304" angle="0"/>
+                    <object folder="0" file="0" x="11" y="21" pivot_x="0.472385" pivot_y="0.474304" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="elisaAttack1">
@@ -150,7 +150,7 @@
             </timeline>
             <timeline id="5" name="elisaAttack5_000">
                 <key id="0" time="375" spin="0">
-                    <object folder="0" file="1" x="14" y="21" pivot_x="0.662128" pivot_y="0.533592" angle="0"/>
+                    <object folder="0" file="1" x="35" y="21" pivot_x="0.662128" pivot_y="0.533592" angle="0"/>
                 </key>
             </timeline>
         </animation>

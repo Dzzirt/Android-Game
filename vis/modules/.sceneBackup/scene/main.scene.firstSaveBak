@@ -15,7 +15,7 @@
     {
       "name": "Background",
       "id": 0,
-      "locked": false,
+      "locked": true,
       "visible": true,
       "cordsSystem": "WORLD",
       "@class": "EditorLayer"
@@ -37,15 +37,15 @@
       "@class": "EditorLayer"
     },
     {
-      "name": "UI",
+      "name": "movingPlatforms",
       "id": 3,
-      "locked": false,
+      "locked": true,
       "visible": true,
       "cordsSystem": "WORLD",
       "@class": "EditorLayer"
     },
     {
-      "name": "movingPlatforms",
+      "name": "UI",
       "id": 4,
       "locked": false,
       "visible": true,
@@ -53,7 +53,7 @@
       "@class": "EditorLayer"
     }
   ],
-  "activeLayerId": 2,
+  "activeLayerId": 4,
   "groupIds": [
     {
       "1": "background",
@@ -106,6 +106,10 @@
         {
           "layerId": 2,
           "@class": "Layer"
+        },
+        {
+          "groupIds": [],
+          "@class": "VisGroup"
         },
         {
           "uuid": "500b2b97-e527-4e3d-ae98-b9bfdb423771",
@@ -249,12 +253,12 @@
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 15.998453,
+              "x": 15.998456,
               "y": 0.67834795,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 31.997753,
+              "x": 31.99776,
               "y": 0.83966386,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
@@ -275,11 +279,11 @@
                 "y": 0.69476455
               },
               {
-                "x": 15.998453,
+                "x": 15.998456,
                 "y": 0.67834795
               },
               {
-                "x": 31.997753,
+                "x": 31.99776,
                 "y": 0.83966386
               }
             ]
@@ -746,62 +750,6 @@
     {
       "components": [
         {
-          "x": 1.0016894,
-          "y": 0.83811283,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.2,
-          "originY": 0.55,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 1.0
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/small-column.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 0.4,
-          "height": 1.1,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 1,
-          "@class": "Layer"
-        },
-        {
-          "uuid": "af1a1052-8389-4d61-9dcd-3c090b5d5c99",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 1,
-          "@class": "Renderable"
-        },
-        {
-          "@class": "VisID"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
           "x": 1.9958208,
           "y": 0.8513896,
           "scaleX": 1.0,
@@ -987,18 +935,18 @@
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 4.4674025,
-              "y": 1.9503601,
+              "x": 4.4674034,
+              "y": 1.95036,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 4.4674025,
-              "y": 2.105674,
+              "x": 4.4674034,
+              "y": 2.1056738,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
               "x": 0.63188636,
-              "y": 2.1069124,
+              "y": 2.1069121,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
@@ -1006,19 +954,19 @@
             [
               {
                 "x": 0.63188636,
-                "y": 2.1069124
+                "y": 2.1069121
               },
               {
                 "x": 0.63188636,
                 "y": 1.9469124
               },
               {
-                "x": 4.4674025,
-                "y": 1.9503601
+                "x": 4.4674034,
+                "y": 1.95036
               },
               {
-                "x": 4.4674025,
-                "y": 2.105674
+                "x": 4.4674034,
+                "y": 2.1056738
               }
             ]
           ],
@@ -3347,6 +3295,10 @@
           "@class": "Layer"
         },
         {
+          "groupIds": [],
+          "@class": "VisGroup"
+        },
+        {
           "uuid": "10000c9a-06e4-4deb-a829-2c226fd2beb2",
           "@class": "VisUUID"
         },
@@ -3464,6 +3416,10 @@
         {
           "layerId": 2,
           "@class": "Layer"
+        },
+        {
+          "groupIds": [],
+          "@class": "VisGroup"
         },
         {
           "uuid": "4cfb140a-2c1c-43ad-91ab-a8d09dbe6d79",
@@ -3914,8 +3870,8 @@
     {
       "components": [
         {
-          "x": 2.3661,
-          "y": 0.9562,
+          "x": 1.0891,
+          "y": 0.8616,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -3934,7 +3890,7 @@
           "flipX": false,
           "flipY": false,
           "playOnStart": true,
-          "defaultAnimation": 15,
+          "defaultAnimation": 17,
           "@class": "ProtoVisSpriter"
         },
         {
@@ -3947,7 +3903,7 @@
         },
         {
           "scale": 0.002,
-          "animation": 15,
+          "animation": 17,
           "playOnStart": true,
           "previewInEditor": false,
           "@class": "SpriterProperties"
@@ -3957,49 +3913,49 @@
           "@class": "Renderable"
         },
         {
-          "id": "player",
+          "id": "enemy",
           "@class": "VisID"
         },
         {
           "vertices": [
             {
-              "x": 2.3691905,
-              "y": 0.96586084,
+              "x": 1.0921904,
+              "y": 0.8712608,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.6957715,
-              "y": 0.96311635,
+              "x": 1.4187714,
+              "y": 0.8685163,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.6957715,
-              "y": 1.4680821,
+              "x": 1.4187714,
+              "y": 1.3734821,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.366446,
-              "y": 1.4680821,
+              "x": 1.089446,
+              "y": 1.3734821,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 2.366446,
-                "y": 1.4680821
+                "x": 1.089446,
+                "y": 1.3734821
               },
               {
-                "x": 2.3691905,
-                "y": 0.96586084
+                "x": 1.0921904,
+                "y": 0.8712608
               },
               {
-                "x": 2.6957715,
-                "y": 0.96311635
+                "x": 1.4187714,
+                "y": 0.8685163
               },
               {
-                "x": 2.6957715,
-                "y": 1.4680821
+                "x": 1.4187714,
+                "y": 1.3734821
               }
             ]
           ],
@@ -4785,7 +4741,7 @@
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 4,
+          "layerId": 3,
           "@class": "Layer"
         },
         {
@@ -8453,7 +8409,7 @@
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 4,
+          "layerId": 3,
           "@class": "Layer"
         },
         {
@@ -9355,8 +9311,8 @@
     {
       "components": [
         {
-          "x": 1.563,
-          "y": 1.2178,
+          "x": 1.5043,
+          "y": 0.8618,
           "scaleX": 1.0,
           "scaleY": 1.0,
           "rotation": 0.0,
@@ -9374,7 +9330,7 @@
           "scale": 0.01,
           "flipX": false,
           "flipY": false,
-          "playOnStart": false,
+          "playOnStart": true,
           "defaultAnimation": 2,
           "@class": "ProtoVisSpriter"
         },
@@ -9383,13 +9339,17 @@
           "@class": "Layer"
         },
         {
+          "groupIds": [],
+          "@class": "VisGroup"
+        },
+        {
           "uuid": "9589cf8a-59ae-4621-a373-262d60eebee8",
           "@class": "VisUUID"
         },
         {
           "scale": 0.01,
           "animation": 2,
-          "playOnStart": false,
+          "playOnStart": true,
           "previewInEditor": false,
           "@class": "SpriterProperties"
         },
@@ -9398,48 +9358,49 @@
           "@class": "Renderable"
         },
         {
+          "id": "player",
           "@class": "VisID"
         },
         {
           "vertices": [
             {
-              "x": 1.563,
-              "y": 1.2178,
+              "x": 1.5043,
+              "y": 0.8618,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.9030089,
-              "y": 1.2178,
+              "x": 1.8443086,
+              "y": 0.8618,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.9030089,
-              "y": 1.6278222,
+              "x": 1.8443086,
+              "y": 1.2718221,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.563,
-              "y": 1.6278222,
+              "x": 1.5043,
+              "y": 1.2718221,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 1.563,
-                "y": 1.6278222
+                "x": 1.5043,
+                "y": 1.2718221
               },
               {
-                "x": 1.563,
-                "y": 1.2178
+                "x": 1.5043,
+                "y": 0.8618
               },
               {
-                "x": 1.9030089,
-                "y": 1.2178
+                "x": 1.8443086,
+                "y": 0.8618
               },
               {
-                "x": 1.9030089,
-                "y": 1.6278222
+                "x": 1.8443086,
+                "y": 1.2718221
               }
             ]
           ],
@@ -9541,8 +9502,8 @@
     {
       "components": [
         {
-          "x": 0.16070732,
-          "y": 0.095545955,
+          "x": -0.8634291,
+          "y": -0.2691,
           "scaleX": 0.7,
           "scaleY": 0.7,
           "rotation": 0.0,
@@ -9577,7 +9538,7 @@
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 3,
+          "layerId": 4,
           "@class": "Layer"
         },
         {
@@ -9593,49 +9554,48 @@
           "@class": "Renderable"
         },
         {
-          "id": "leftArrow",
           "@class": "VisID"
         },
         {
           "vertices": [
             {
-              "x": 0.01902175,
-              "y": -0.040044397,
+              "x": -1.0051148,
+              "y": -0.40469047,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 0.8936167,
-              "y": -0.019625843,
+              "x": -0.13051978,
+              "y": -0.38427174,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 0.89570725,
-              "y": 0.8305459,
+              "x": -0.1284292,
+              "y": 0.46589988,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 0.01902175,
-              "y": 0.83114755,
+              "x": -1.0051148,
+              "y": 0.46650153,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 0.01902175,
-                "y": 0.83114755
+                "x": -1.0051148,
+                "y": 0.46650153
               },
               {
-                "x": 0.01902175,
-                "y": -0.040044397
+                "x": -1.0051148,
+                "y": -0.40469047
               },
               {
-                "x": 0.8936167,
-                "y": -0.019625843
+                "x": -0.13051978,
+                "y": -0.38427174
               },
               {
-                "x": 0.89570725,
-                "y": 0.8305459
+                "x": -0.1284292,
+                "y": 0.46589988
               }
             ]
           ],
@@ -9647,432 +9607,8 @@
     {
       "components": [
         {
-          "x": 4.5647774,
-          "y": 0.46910053,
-          "scaleX": 0.3,
-          "scaleY": 0.35,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 0.85882354
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/jump_arrow.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 1.05,
-          "height": 1.05,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 3,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "94ff3b86-9482-48fd-84f9-286dad7e37a0",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "id": "jumpArrow",
-          "@class": "VisID"
-        },
-        {
-          "vertices": [
-            {
-              "x": 4.5647774,
-              "y": 0.46910053,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.9881983,
-              "y": 0.4705429,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.9881983,
-              "y": 0.8352556,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.5647774,
-              "y": 0.83660054,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 4.5647774,
-                "y": 0.83660054
-              },
-              {
-                "x": 4.5647774,
-                "y": 0.46910053
-              },
-              {
-                "x": 4.9881983,
-                "y": 0.4705429
-              },
-              {
-                "x": 4.9881983,
-                "y": 0.8352556
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 4.5662556,
-          "y": 0.09306367,
-          "scaleX": 0.3,
-          "scaleY": 0.35,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 0.85882354
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/jump_arrow.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": true,
-          "width": 1.05,
-          "height": 1.05,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 3,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "4acd9a24-639d-4bfa-8723-f02a1e065a18",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "id": "slidingArrow",
-          "@class": "VisID"
-        },
-        {
-          "vertices": [
-            {
-              "x": 4.5662556,
-              "y": 0.09306367,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.990614,
-              "y": 0.093753666,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.990614,
-              "y": 0.46088162,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.5662556,
-              "y": 0.46056366,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 4.5662556,
-                "y": 0.46056366
-              },
-              {
-                "x": 4.5662556,
-                "y": 0.09306367
-              },
-              {
-                "x": 4.990614,
-                "y": 0.093753666
-              },
-              {
-                "x": 4.990614,
-                "y": 0.46088162
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 3.6406682,
-          "y": 0.095545955,
-          "scaleX": 0.4,
-          "scaleY": 0.7,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 0.85882354
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/left_arrow.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": false,
-          "flipY": false,
-          "width": 1.05,
-          "height": 1.05,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 3,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "272e7f27-82ff-4ec4-b086-553a3ebd7678",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "id": "leftAtkArrow",
-          "@class": "VisID"
-        },
-        {
-          "vertices": [
-            {
-              "x": 3.6406682,
-              "y": 0.095545955,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.060668,
-              "y": 0.095545955,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.060668,
-              "y": 0.8305459,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 3.6406682,
-              "y": 0.8305459,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 3.6406682,
-                "y": 0.8305459
-              },
-              {
-                "x": 3.6406682,
-                "y": 0.095545955
-              },
-              {
-                "x": 4.060668,
-                "y": 0.095545955
-              },
-              {
-                "x": 4.060668,
-                "y": 0.8305459
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 4.080764,
-          "y": 0.09752521,
-          "scaleX": 0.4,
-          "scaleY": 0.7,
-          "rotation": 0.0,
-          "@class": "Transform"
-        },
-        {
-          "originX": 0.0,
-          "originY": 0.0,
-          "@class": "Origin"
-        },
-        {
-          "tint": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0,
-            "a": 0.85882354
-          },
-          "@class": "Tint"
-        },
-        {
-          "asset": {
-            "relativePath": "gfx/left_arrow.png",
-            "@class": "TextureRegionAsset"
-          },
-          "@class": "AssetReference"
-        },
-        {
-          "flipX": true,
-          "flipY": false,
-          "width": 1.05,
-          "height": 1.05,
-          "@class": "ProtoVisSprite"
-        },
-        {
-          "layerId": 3,
-          "@class": "Layer"
-        },
-        {
-          "groupIds": [],
-          "@class": "VisGroup"
-        },
-        {
-          "uuid": "4da8ba4a-bcc4-4975-ab0f-e5d37b9c2068",
-          "@class": "VisUUID"
-        },
-        {
-          "zIndex": 0,
-          "@class": "Renderable"
-        },
-        {
-          "id": "rightAtkArrow",
-          "@class": "VisID"
-        },
-        {
-          "vertices": [
-            {
-              "x": 4.080764,
-              "y": 0.09752521,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.5606875,
-              "y": 0.098584324,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.5606875,
-              "y": 0.8328402,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            },
-            {
-              "x": 4.080764,
-              "y": 0.83252513,
-              "@class": "com.badlogic.gdx.math.Vector2"
-            }
-          ],
-          "faces": [
-            [
-              {
-                "x": 4.080764,
-                "y": 0.83252513
-              },
-              {
-                "x": 4.080764,
-                "y": 0.09752521
-              },
-              {
-                "x": 4.5606875,
-                "y": 0.098584324
-              },
-              {
-                "x": 4.5606875,
-                "y": 0.8328402
-              }
-            ]
-          ],
-          "@class": "VisPolygon"
-        }
-      ],
-      "@class": "EntityScheme"
-    },
-    {
-      "components": [
-        {
-          "x": 0.9888141,
-          "y": 0.095545955,
+          "x": -0.9189,
+          "y": 0.4921,
           "scaleX": 0.7,
           "scaleY": 0.7,
           "rotation": 0.0,
@@ -10107,7 +9643,7 @@
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 3,
+          "layerId": 4,
           "@class": "Layer"
         },
         {
@@ -10123,49 +9659,48 @@
           "@class": "Renderable"
         },
         {
-          "id": "rightArrow",
           "@class": "VisID"
         },
         {
           "vertices": [
             {
-              "x": 0.9412599,
-              "y": 0.017808229,
+              "x": -0.9664542,
+              "y": 0.41436228,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.8430797,
-              "y": 0.021211296,
+              "x": -0.06463444,
+              "y": 0.41776535,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.8464828,
-              "y": 0.83114755,
+              "x": -0.061231375,
+              "y": 1.227701,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 0.95487237,
-              "y": 0.84135675,
+              "x": -0.95284176,
+              "y": 1.23791,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 0.95487237,
-                "y": 0.84135675
+                "x": -0.95284176,
+                "y": 1.23791
               },
               {
-                "x": 0.9412599,
-                "y": 0.017808229
+                "x": -0.9664542,
+                "y": 0.41436228
               },
               {
-                "x": 1.8430797,
-                "y": 0.021211296
+                "x": -0.06463444,
+                "y": 0.41776535
               },
               {
-                "x": 1.8464828,
-                "y": 0.83114755
+                "x": -0.061231375,
+                "y": 1.227701
               }
             ]
           ],
@@ -10177,10 +9712,10 @@
     {
       "components": [
         {
-          "x": 1.9748707,
-          "y": 1.1980869,
-          "scaleX": 0.2,
-          "scaleY": 0.2,
+          "x": 0.7341844,
+          "y": 0.03713751,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
           "rotation": 0.0,
           "@class": "Transform"
         },
@@ -10200,7 +9735,7 @@
         },
         {
           "asset": {
-            "relativePath": "gfx/enemy.png",
+            "relativePath": "gfx/UI/newRight.png",
             "@class": "TextureRegionAsset"
           },
           "@class": "AssetReference"
@@ -10208,20 +9743,22 @@
         {
           "flipX": false,
           "flipY": false,
-          "width": 1.7,
-          "height": 2.3,
+          "width": 1.18,
+          "height": 1.78,
           "@class": "ProtoVisSprite"
         },
         {
-          "layerId": 2,
+          "layerId": 4,
           "@class": "Layer"
         },
         {
-          "groupIds": [],
+          "groupIds": [
+            32
+          ],
           "@class": "VisGroup"
         },
         {
-          "uuid": "01e407e2-cbdd-4745-ac5d-66e4393cd976",
+          "uuid": "a503c315-c910-4f52-8f15-c8eb4c20da87",
           "@class": "VisUUID"
         },
         {
@@ -10229,71 +9766,969 @@
           "@class": "Renderable"
         },
         {
-          "id": "enemy",
+          "id": "rightArrow",
           "@class": "VisID"
         },
         {
           "vertices": [
             {
-              "x": 1.9748707,
-              "y": 1.1980869,
+              "x": 0.9104701,
+              "y": 0.25179923,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.31487,
-              "y": 1.1980869,
+              "x": 1.324185,
+              "y": 0.03713751,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 2.31487,
-              "y": 1.6580868,
+              "x": 1.324185,
+              "y": 0.9271376,
               "@class": "com.badlogic.gdx.math.Vector2"
             },
             {
-              "x": 1.9748707,
-              "y": 1.6580868,
+              "x": 0.9104701,
+              "y": 0.7419747,
               "@class": "com.badlogic.gdx.math.Vector2"
             }
           ],
           "faces": [
             [
               {
-                "x": 1.9748707,
-                "y": 1.6580868
+                "x": 0.9104701,
+                "y": 0.7419747
               },
               {
-                "x": 1.9748707,
-                "y": 1.1980869
+                "x": 0.9104701,
+                "y": 0.25179923
               },
               {
-                "x": 2.31487,
-                "y": 1.1980869
+                "x": 1.324185,
+                "y": 0.03713751
               },
               {
-                "x": 2.31487,
-                "y": 1.6580868
+                "x": 1.324185,
+                "y": 0.9271376
               }
             ]
           ],
           "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 3.804194,
+          "y": 0.14435673,
+          "scaleX": 0.4,
+          "scaleY": 0.4,
+          "rotation": 0.0,
+          "@class": "Transform"
         },
         {
-          "bodyType": "DynamicBody",
-          "friction": 1.0,
-          "density": 1.0,
-          "restitution": 0.0,
-          "sensor": false,
-          "gravityScale": 1.0,
-          "linearDamping": 0.0,
-          "angularDamping": 0.0,
-          "bullet": false,
-          "fixedRotation": true,
-          "active": true,
-          "sleepingAllowed": true,
-          "adjustOrigin": true,
-          "maskBits": -1,
-          "categoryBits": 1,
-          "@class": "PhysicsProperties"
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/attack.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 1.97,
+          "height": 1.6,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "5bda5462-7edd-4db8-8922-981257ddead1",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "attackArrow",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 3.804194,
+              "y": 0.14435673,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.592194,
+              "y": 0.14435673,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 4.592194,
+              "y": 0.7843567,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 3.804194,
+              "y": 0.7843567,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 3.804194,
+                "y": 0.7843567
+              },
+              {
+                "x": 3.804194,
+                "y": 0.14435673
+              },
+              {
+                "x": 4.592194,
+                "y": 0.14435673
+              },
+              {
+                "x": 4.592194,
+                "y": 0.7843567
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.39890903,
+          "y": 0.57910615,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/newJump.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 1.61,
+          "height": 0.84,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            32
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "84abf254-869c-4c6e-9ef8-1a3a0f00e60e",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "id": "jumpArrow",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 0.5311166,
+              "y": 0.6013155,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 1.0937531,
+              "y": 0.6013155,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 1.2039104,
+              "y": 0.9991063,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.39890903,
+              "y": 0.9991063,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 0.39890903,
+                "y": 0.9991063
+              },
+              {
+                "x": 0.5311166,
+                "y": 0.6013155
+              },
+              {
+                "x": 1.0937531,
+                "y": 0.6013155
+              },
+              {
+                "x": 1.2039104,
+                "y": 0.9991063
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.1272,
+          "y": 2.4862,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/playerHpNew..png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.52,
+          "height": 0.28,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "11114750-4b5b-4133-ba98-766b0aa898e2",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "hp_line",
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 4.517,
+          "y": 2.4340513,
+          "scaleX": 0.4,
+          "scaleY": 0.4,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/menu.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.69,
+          "height": 0.54,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "50977319-b00a-4171-ba9b-b3f2f0a8bbc7",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "pause",
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.2893153,
+          "y": 0.03259173,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/newLeft.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 0.93,
+          "height": 1.76,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            32
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "f731491a-705e-4d5b-92e1-7c64092fd2a1",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "leftArrow",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 0.008446693,
+              "y": 0.48208833,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.2893153,
+              "y": 0.03259173,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.6973498,
+              "y": 0.30721036,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.6973498,
+              "y": 0.6567267,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.2893153,
+              "y": 0.9125918,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 0.2893153,
+                "y": 0.9125918
+              },
+              {
+                "x": 0.008446693,
+                "y": 0.48208833
+              },
+              {
+                "x": 0.2893153,
+                "y": 0.03259173
+              },
+              {
+                "x": 0.6973498,
+                "y": 0.30721036
+              },
+              {
+                "x": 0.6973498,
+                "y": 0.6567267
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.35758775,
+          "y": -0.038765617,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/newSlide.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 1.78,
+          "height": 0.94,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "groupIds": [
+            32
+          ],
+          "@class": "VisGroup"
+        },
+        {
+          "uuid": "7ad216af-99bc-4837-a7bc-2a9f94e2c9f1",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 1,
+          "@class": "Renderable"
+        },
+        {
+          "id": "slidingArrow",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 0.35758775,
+              "y": -0.038765617,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 1.2475891,
+              "y": -0.038765617,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.97440684,
+              "y": 0.36688396,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 0.6419394,
+              "y": 0.36688396,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 0.6419394,
+                "y": 0.36688396
+              },
+              {
+                "x": 0.35758775,
+                "y": -0.038765617
+              },
+              {
+                "x": 1.2475891,
+                "y": -0.038765617
+              },
+              {
+                "x": 0.97440684,
+                "y": 0.36688396
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 0.07880199,
+          "y": 2.357236,
+          "scaleX": 0.5,
+          "scaleY": 0.5,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/player_hpBar.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 2.71,
+          "height": 0.62,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "1f0b61dc-dde8-44b2-988c-e08a9c3364b8",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "hp_bar",
+          "@class": "VisID"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 2.8556,
+          "y": 0.2423,
+          "scaleX": 0.4,
+          "scaleY": 0.4,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.2784314,
+            "g": 0.21176471,
+            "b": 0.21176471,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/speedUp.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 1.15,
+          "height": 1.14,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "c8ae1a8c-0c13-4ace-a021-712d1311c3ee",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "speed_up",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 2.8556,
+              "y": 0.2423,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 3.3156002,
+              "y": 0.2423,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 3.3156002,
+              "y": 0.6983,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 2.8556,
+              "y": 0.6983,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 2.8556,
+                "y": 0.6983
+              },
+              {
+                "x": 2.8556,
+                "y": 0.2423
+              },
+              {
+                "x": 3.3156002,
+                "y": 0.2423
+              },
+              {
+                "x": 3.3156002,
+                "y": 0.6983
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 1.6934,
+          "y": 0.2423,
+          "scaleX": 0.4,
+          "scaleY": 0.4,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.2784314,
+            "g": 0.21176471,
+            "b": 0.21176471,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/healing.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 1.16,
+          "height": 1.14,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "bae9150d-0497-4e4a-9a43-1988bb285bcb",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "hp_regen",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 1.6934,
+              "y": 0.2423,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 2.1574,
+              "y": 0.2423,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 2.1574,
+              "y": 0.6983,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 1.6934,
+              "y": 0.6983,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 1.6934,
+                "y": 0.6983
+              },
+              {
+                "x": 1.6934,
+                "y": 0.2423
+              },
+              {
+                "x": 2.1574,
+                "y": 0.2423
+              },
+              {
+                "x": 2.1574,
+                "y": 0.6983
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
+        }
+      ],
+      "@class": "EntityScheme"
+    },
+    {
+      "components": [
+        {
+          "x": 2.2825,
+          "y": 0.2423,
+          "scaleX": 0.4,
+          "scaleY": 0.4,
+          "rotation": 0.0,
+          "@class": "Transform"
+        },
+        {
+          "originX": 0.0,
+          "originY": 0.0,
+          "@class": "Origin"
+        },
+        {
+          "tint": {
+            "r": 0.2784314,
+            "g": 0.21176471,
+            "b": 0.21176471,
+            "a": 1.0
+          },
+          "@class": "Tint"
+        },
+        {
+          "asset": {
+            "relativePath": "gfx/UI/rage.png",
+            "@class": "TextureRegionAsset"
+          },
+          "@class": "AssetReference"
+        },
+        {
+          "flipX": false,
+          "flipY": false,
+          "width": 1.15,
+          "height": 1.15,
+          "@class": "ProtoVisSprite"
+        },
+        {
+          "layerId": 4,
+          "@class": "Layer"
+        },
+        {
+          "uuid": "2245556e-4cc9-448c-8038-cb0390a8e349",
+          "@class": "VisUUID"
+        },
+        {
+          "zIndex": 0,
+          "@class": "Renderable"
+        },
+        {
+          "id": "attack_up",
+          "@class": "VisID"
+        },
+        {
+          "vertices": [
+            {
+              "x": 2.2825,
+              "y": 0.2423,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 2.7425,
+              "y": 0.2423,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 2.7425,
+              "y": 0.7023,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            },
+            {
+              "x": 2.2825,
+              "y": 0.7023,
+              "@class": "com.badlogic.gdx.math.Vector2"
+            }
+          ],
+          "faces": [
+            [
+              {
+                "x": 2.2825,
+                "y": 0.7023
+              },
+              {
+                "x": 2.2825,
+                "y": 0.2423
+              },
+              {
+                "x": 2.7425,
+                "y": 0.2423
+              },
+              {
+                "x": 2.7425,
+                "y": 0.7023
+              }
+            ]
+          ],
+          "@class": "VisPolygon"
         }
       ],
       "@class": "EntityScheme"

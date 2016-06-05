@@ -2,7 +2,7 @@
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1" pixel_mode="1">
     <folder id="0" name="Attack">
         <file id="0" name="Attack/elisaAttack0.png" width="30" height="44" pivot_x="0" pivot_y="0"/>
-        <file id="1" name="Attack/elisaAttack5.png" width="44" height="39" pivot_x="0.35" pivot_y="0"/>
+        <file id="1" name="Attack/elisaAttack5.png" width="77" height="39" pivot_x="0.35" pivot_y="0"/>
         <file id="2" name="Attack/elisaAttack1.png" width="24" height="44" pivot_x="0" pivot_y="0"/>
         <file id="3" name="Attack/elisaAttack2.png" width="27" height="39" pivot_x="0" pivot_y="0"/>
         <file id="4" name="Attack/elisaAttack3.png" width="49" height="39" pivot_x="0" pivot_y="0"/>
@@ -125,7 +125,7 @@
             </mainline>
             <timeline id="0" name="elisaAttack0_001">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" x="14" y="21" pivot_x="0.472385" pivot_y="0.474304" angle="0"/>
+                    <object folder="0" file="0" x="11" y="21" pivot_x="0.472385" pivot_y="0.474304" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="elisaAttack1">
@@ -150,7 +150,7 @@
             </timeline>
             <timeline id="5" name="elisaAttack5_000">
                 <key id="0" time="375" spin="0">
-                    <object folder="0" file="1" x="14" y="21" pivot_x="0.662128" pivot_y="0.533592" angle="0"/>
+                    <object folder="0" file="1" x="35" y="21" pivot_x="0.662128" pivot_y="0.533592" angle="0"/>
                 </key>
             </timeline>
         </animation>

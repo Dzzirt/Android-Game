@@ -1,5 +1,6 @@
 package com.dark.castle;
 
+import com.artemis.BaseSystem;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -7,16 +8,24 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.dark.castle.Systems.AnimationSystem;
 import com.dark.castle.Systems.CameraTrackingSystem;
 import com.dark.castle.Systems.AdditionalComponentLoader;
+import com.dark.castle.Systems.CharacterStatsUpdateSystem;
+import com.dark.castle.Systems.HealthBarRenderSystem;
+import com.dark.castle.Systems.HitProcessingSystem;
 import com.dark.castle.Systems.PhysicSpriterUpdateSystem;
 import com.dark.castle.Systems.PlatformMovingSystem;
 import com.dark.castle.Systems.PlayerMovementSystem;
 import com.dark.castle.Systems.SpriterPhysicCreationSystem;
 import com.dark.castle.Systems.UiUpdatePositionSystem;
 import com.dark.castle.Systems.UserInputSystem;
+import com.kotcrab.vis.runtime.RuntimeContext;
+import com.kotcrab.vis.runtime.data.SceneData;
 import com.kotcrab.vis.runtime.scene.Scene;
 import com.kotcrab.vis.runtime.scene.SceneFeature;
 import com.kotcrab.vis.runtime.scene.SceneLoader;
+import com.kotcrab.vis.runtime.scene.SystemProvider;
 import com.kotcrab.vis.runtime.scene.VisAssetManager;
+import com.kotcrab.vis.runtime.system.render.RenderBatchingSystem;
+import com.kotcrab.vis.runtime.util.EntityEngineConfiguration;
 import com.kotcrab.vis.runtime.util.SpriterData;
 
 public class DarkCastle extends ApplicationAdapter {
@@ -39,9 +48,16 @@ public class DarkCastle extends ApplicationAdapter {
 		parameter.config.addSystem(AnimationSystem.class, 1);
 		parameter.config.addSystem(PhysicSpriterUpdateSystem.class, 1);
 		parameter.config.addSystem(SpriterPhysicCreationSystem.class, 0);
-		parameter.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
+		parameter.config.addSystem(HitProcessingSystem.class, 0);
+		parameter.config.addSystem(CharacterStatsUpdateSystem.class, 0);
+		parameter.config.addSystem(new SystemProvider() {
+			@Override
+			public BaseSystem create(EntityEngineConfiguration config, RuntimeContext context, SceneData data) {
+				return new HealthBarRenderSystem(config.getSystem(RenderBatchingSystem.class));
+			}
+		}, 3);
+		//parameter.config.enable(SceneFeature.BOX2D_DEBUG_RENDER_SYSTEM);
 		parameter.config.disable(SceneFeature.DIRTY_CLEANER_SYSTEM);
-		//parameter.config.disable(SceneFeature.SPRITER_RENDER_SYSTEM);
 		manager.load("spriter/Player/elisa.scml", SpriterData.class);
 		manager.load("spriter/Goblin_enemy/Goblin_enemy_smallhead.scml", SpriterData.class);
 		scene = manager.loadSceneNow("scene/main.scene", parameter);

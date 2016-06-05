@@ -47,7 +47,7 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
     private ComponentMapper<Velocity> velocityCmp;
 
     public PlayerMovementSystem() {
-        super(Aspect.all(PhysicStates.class));
+        super(Aspect.all(PhysicStates.class, PhysicsBody.class));
     }
 
     @Override
@@ -156,11 +156,16 @@ public class PlayerMovementSystem extends IteratingSystem implements AfterSceneI
 
 
     private void ProcessMove(Body body, Velocity vel, PhysicStates states) {
-        if (states.isSliding) {
-            body.setLinearVelocity(vel.x * 2.5f, body.getLinearVelocity().y);
-            states.isSliding = false;
+        float modifier = 2.5f;
+        if (states.isSlidingLeft) {
+            states.isSlidingLeft = false;
+            body.setLinearVelocity(vel.x * -modifier, body.getLinearVelocity().y);
+        } else if (states.isSlidingRight) {
+            states.isSlidingRight = false;
+            body.setLinearVelocity(vel.x * modifier, body.getLinearVelocity().y);
         }
-        else if (states.isMovingLeft) {
+
+        if (states.isMovingLeft) {
             body.setLinearVelocity(-vel.x, body.getLinearVelocity().y);
         }
         else if (states.isMovingRight) {

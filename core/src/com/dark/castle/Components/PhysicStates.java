@@ -9,5 +9,6 @@ public class PhysicStates extends Component {
     public boolean isMovingLeft = false;
     public boolean isMovingRight = false;
     public boolean isJumping = false;
-    public boolean isSliding = false;
+    public boolean isSlidingLeft = false;
+    public boolean isSlidingRight = false;
 }

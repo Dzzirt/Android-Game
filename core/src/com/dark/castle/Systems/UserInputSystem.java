@@ -6,15 +6,13 @@ import com.artemis.Entity;
 import com.artemis.systems.IteratingSystem;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
-import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
-import com.dark.castle.Components.Button;
+import com.dark.castle.Components.UIElement;
 import com.dark.castle.Components.PhysicStates;
 import com.dark.castle.Components.AnimationStates;
 import com.dark.castle.Utils;
-import com.kotcrab.vis.runtime.component.Transform;
 import com.kotcrab.vis.runtime.component.VisID;
-import com.kotcrab.vis.runtime.component.VisPolygon;
 import com.kotcrab.vis.runtime.system.CameraManager;
 import com.kotcrab.vis.runtime.system.VisIDManager;
 import com.kotcrab.vis.runtime.system.render.RenderBatchingSystem;
@@ -26,7 +24,7 @@ import com.kotcrab.vis.runtime.util.AfterSceneInit;
 public class UserInputSystem extends IteratingSystem implements AfterSceneInit, InputProcessor {
     private VisIDManager idManager;
     private CameraManager cameraManager;
-    private ComponentMapper<Button> buttonCmp;
+    private ComponentMapper<UIElement> buttonCmp;
     private ComponentMapper<VisID> idCmp;
     private RenderBatchingSystem renderBatchingSystem;
 
@@ -36,7 +34,7 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     Entity leftArrow;
     Entity rightArrow;
     Entity jumpArrow;
-    Entity leftAtkArrow;
+    Entity attackArrow;
     Entity rightAtkArrow;
     Entity slidingArrow;
 
@@ -50,7 +48,7 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
 
     private AnimationStates states;
     public UserInputSystem() {
-        super(Aspect.all(Button.class));
+        super(Aspect.all(UIElement.class));
 
     }
 
@@ -65,8 +63,7 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
         player = idManager.get("player");
         leftArrow = idManager.get("leftArrow");
         rightArrow = idManager.get("rightArrow");
-        leftAtkArrow = idManager.get("leftAtkArrow");
-        rightAtkArrow = idManager.get("rightAtkArrow");
+        attackArrow = idManager.get("attackArrow");
         slidingArrow = idManager.get("slidingArrow");
         jumpArrow = idManager.get("jumpArrow");
         states = player.getComponent(AnimationStates.class);
@@ -77,37 +74,37 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         Vector3 touchPos = GetInWorldCoordinates(screenX, screenY);
-        if (Utils.GetBounds(leftArrow).contains(touchPos.x, touchPos.y)&& pointerRight == NONE) {
+        System.out.println(screenX + " " + screenY);
+        if (Utils.IsPolygonContainsPoint(leftArrow, new Vector2(touchPos.x, touchPos.y))&& pointerRight == NONE) {
             pointerLeft = pointer;
             states.getState("Run").isPlaying = true;
             states.getState("Run").isFlip = true;
             player.getComponent(PhysicStates.class).isMovingLeft = true;
         }
-        else if (Utils.GetBounds(rightArrow).contains(touchPos.x, touchPos.y) && pointerLeft == NONE) {
+        else if (Utils.IsPolygonContainsPoint(rightArrow, new Vector2(touchPos.x, touchPos.y)) && pointerLeft == NONE) {
             pointerRight = pointer;
             states.getState("Run").isPlaying = true;
             states.getState("Run").isFlip = false;
             player.getComponent(PhysicStates.class).isMovingRight = true;
         }
-        else if (Utils.GetBounds(jumpArrow).contains(touchPos.x, touchPos.y)) {
+        if (Utils.IsPolygonContainsPoint(jumpArrow, new Vector2(touchPos.x, touchPos.y))) {
             pointerJump = pointer;
             states.getState("Jump").isPlaying = true;
             player.getComponent(PhysicStates.class).isJumping = true;
         }
-        else if (Utils.GetBounds(slidingArrow).contains(touchPos.x, touchPos.y)) {
+        if (Utils.IsPolygonContainsPoint(slidingArrow, new Vector2(touchPos.x, touchPos.y))) {
             pointerSlide = pointer;
-            states.getState("Hurt").isPlaying = true;
-            //player.getComponent(PhysicStates.class).isSliding = true;
+            states.getState("Slide").isPlaying = true;
+            if (states.getState("Slide").isFlip) {
+                player.getComponent(PhysicStates.class).isSlidingLeft = true;
+            } else {
+                player.getComponent(PhysicStates.class).isSlidingRight = true;
+            }
+
         }
-        else if (Utils.GetBounds(leftAtkArrow).contains(touchPos.x, touchPos.y)) {
+        if (Utils.IsPolygonContainsPoint(attackArrow, new Vector2(touchPos.x, touchPos.y))) {
             pointerLeftAtk = pointer;
             states.getState("Attack").isPlaying = true;
-            states.getState("Attack").isFlip = true;
-        }
-        else if (Utils.GetBounds(rightAtkArrow).contains(touchPos.x, touchPos.y)) {
-            pointerRightAtk = pointer;
-            states.getState("Attack").isPlaying = true;
-            states.getState("Attack").isFlip = false;
         }
         return true;
     }
@@ -129,14 +126,18 @@ public class UserInputSystem extends IteratingSystem implements AfterSceneInit, 
             states.getState("Run").isPlaying = false;
             player.getComponent(PhysicStates.class).isMovingRight = false;
             pointerRight = NONE;
-        } else if (pointer == pointerJump) {
+        }
+        if (pointer == pointerJump) {
             player.getComponent(PhysicStates.class).isJumping = false;
             pointerJump = NONE;
-        } else if (pointer == pointerSlide) {
+        }
+        if (pointer == pointerSlide) {
             states.getState("Slide").isPlaying = false;
-            player.getComponent(PhysicStates.class).isSliding = false;
+            player.getComponent(PhysicStates.class).isSlidingLeft = false;
+            player.getComponent(PhysicStates.class).isSlidingRight = false;
             pointerSlide = NONE;
-        } else if (pointer == pointerLeftAtk) {
+        }
+        if (pointer == pointerLeftAtk) {
             states.getState("Attack").isPlaying = false;
             pointerLeftAtk = NONE;
         } else if (pointer == pointerRightAtk) {

@@ -4,206 +4,416 @@ size: 2048,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
+gfx/UI/attack
+  rotate: false
+  xy: 260, 309
+  size: 197, 160
+  orig: 197, 160
+  offset: 0, 0
+  index: -1
+gfx/UI/empty_bonus
+  rotate: false
+  xy: 1921, 649
+  size: 114, 118
+  orig: 114, 118
+  offset: 0, 0
+  index: -1
+gfx/UI/healing
+  rotate: false
+  xy: 1921, 533
+  size: 116, 114
+  orig: 116, 114
+  offset: 0, 0
+  index: -1
+gfx/UI/menu
+  rotate: false
+  xy: 866, 400
+  size: 69, 54
+  orig: 69, 54
+  offset: 0, 0
+  index: -1
+gfx/UI/message
+  rotate: false
+  xy: 609, 658
+  size: 349, 106
+  orig: 349, 106
+  offset: 0, 0
+  index: -1
+gfx/UI/mini-health
+  rotate: false
+  xy: 611, 154
+  size: 60, 8
+  orig: 60, 8
+  offset: 0, 0
+  index: -1
+gfx/UI/newJump
+  rotate: false
+  xy: 357, 42
+  size: 161, 84
+  orig: 161, 84
+  offset: 0, 0
+  index: -1
+gfx/UI/newLeft
+  rotate: false
+  xy: 1826, 588
+  size: 93, 176
+  orig: 93, 176
+  offset: 0, 0
+  index: -1
+gfx/UI/newRight
+  rotate: false
+  xy: 491, 137
+  size: 118, 178
+  orig: 118, 178
+  offset: 0, 0
+  index: -1
+gfx/UI/newSlide
+  rotate: false
+  xy: 2, 9
+  size: 178, 94
+  orig: 178, 94
+  offset: 0, 0
+  index: -1
+gfx/UI/playerHpNew
+  rotate: false
+  xy: 609, 628
+  size: 252, 28
+  orig: 252, 28
+  offset: 0, 0
+  index: -1
+gfx/UI/player_hpBar
+  rotate: false
+  xy: 1233, 702
+  size: 271, 62
+  orig: 271, 62
+  offset: 0, 0
+  index: -1
+gfx/UI/rage
+  rotate: false
+  xy: 565, 486
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+gfx/UI/speedUp
+  rotate: false
+  xy: 682, 512
+  size: 115, 114
+  orig: 115, 114
+  offset: 0, 0
+  index: -1
 gfx/Untitled-1
   rotate: false
-  xy: 1862, 798
+  xy: 1792, 586
   size: 30, 30
   orig: 30, 30
   offset: 0, 0
   index: -1
 gfx/atk_btn
   rotate: false
-  xy: 148, 203
+  xy: 520, 30
   size: 105, 105
   orig: 105, 105
   offset: 0, 0
   index: -1
 gfx/attackBg
   rotate: false
-  xy: 432, 607
+  xy: 459, 317
   size: 142, 152
   orig: 142, 152
   offset: 0, 0
   index: -1
-gfx/attackKnob
-  rotate: false
-  xy: 829, 666
-  size: 93, 93
-  orig: 93, 93
-  offset: 0, 0
-  index: -1
 gfx/background
   rotate: false
-  xy: 2, 310
+  xy: 2, 315
   size: 256, 449
   orig: 256, 449
   offset: 0, 0
   index: -1
 gfx/badlogic
   rotate: false
-  xy: 1604, 761
+  xy: 1604, 766
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 gfx/cloud
   rotate: false
-  xy: 1019, 723
+  xy: 1265, 664
   size: 52, 36
   orig: 52, 36
   offset: 0, 0
   index: -1
 gfx/door
   rotate: false
-  xy: 148, 45
+  xy: 906, 532
   size: 43, 49
   orig: 43, 49
   offset: 0, 0
   index: -1
+gfx/double_damage
+  rotate: false
+  xy: 866, 456
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
 gfx/enemy
   rotate: false
-  xy: 260, 529
+  xy: 1862, 792
   size: 170, 230
   orig: 170, 230
   offset: 0, 0
   index: -1
 gfx/gound-level1
   rotate: false
-  xy: 2, 761
+  xy: 2, 766
   size: 1600, 256
   orig: 1600, 256
   offset: 0, 0
   index: -1
 gfx/ground-trap
   rotate: false
-  xy: 1944, 830
+  xy: 945, 640
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
+gfx/health
+  rotate: false
+  xy: 960, 680
+  size: 155, 20
+  orig: 155, 20
+  offset: 0, 0
+  index: -1
+gfx/health_regen
+  rotate: false
+  xy: 906, 583
+  size: 58, 55
+  orig: 58, 55
+  offset: 0, 0
+  index: -1
+gfx/info
+  rotate: false
+  xy: 260, 471
+  size: 303, 130
+  orig: 303, 130
+  offset: 0, 0
+  index: -1
+gfx/jump
+  rotate: false
+  xy: 603, 323
+  size: 103, 54
+  orig: 103, 54
+  offset: 0, 0
+  index: -1
+gfx/jump-mini
+  rotate: false
+  xy: 182, 2
+  size: 68, 26
+  orig: 68, 26
+  offset: 0, 0
+  index: -1
 gfx/jump_arrow
   rotate: false
-  xy: 722, 654
+  xy: 603, 379
   size: 105, 105
   orig: 105, 105
   offset: 0, 0
   index: -1
 gfx/ladder-level1
   rotate: false
-  xy: 576, 631
+  xy: 1680, 636
   size: 144, 128
   orig: 144, 128
   offset: 0, 0
   index: -1
+gfx/left
+  rotate: false
+  xy: 810, 410
+  size: 54, 109
+  orig: 54, 109
+  offset: 0, 0
+  index: -1
+gfx/left-mini
+  rotate: false
+  xy: 678, 163
+  size: 28, 65
+  orig: 28, 65
+  offset: 0, 0
+  index: -1
 gfx/left_arrow
   rotate: false
-  xy: 148, 96
+  xy: 799, 521
   size: 105, 105
   orig: 105, 105
   offset: 0, 0
   index: -1
+gfx/mana
+  rotate: false
+  xy: 1862, 769
+  size: 155, 21
+  orig: 155, 21
+  offset: 0, 0
+  index: -1
+gfx/move
+  rotate: false
+  xy: 2, 105
+  size: 207, 208
+  orig: 207, 208
+  offset: 0, 0
+  index: -1
 gfx/moveBg
   rotate: false
-  xy: 1862, 848
+  xy: 1506, 595
   size: 172, 169
   orig: 172, 169
   offset: 0, 0
   index: -1
 gfx/moveKnob
   rotate: false
-  xy: 924, 668
+  xy: 611, 230
   size: 93, 91
   orig: 93, 91
   offset: 0, 0
   index: -1
 gfx/platform-2t-level1
   rotate: false
-  xy: 84, 20
+  xy: 1792, 618
   size: 32, 16
   orig: 32, 16
   offset: 0, 0
   index: -1
 gfx/platform-3t-level1
   rotate: false
-  xy: 432, 589
+  xy: 1355, 684
   size: 48, 16
   orig: 48, 16
   offset: 0, 0
   index: -1
 gfx/platform3t-2-level1
   rotate: false
-  xy: 2, 2
+  xy: 1355, 666
   size: 48, 16
   orig: 48, 16
   offset: 0, 0
   index: -1
 gfx/platform4t-2-level1
   rotate: false
-  xy: 576, 613
+  xy: 609, 610
   size: 64, 16
   orig: 64, 16
   offset: 0, 0
   index: -1
 gfx/platform4t-level1
   rotate: false
-  xy: 722, 636
+  xy: 1199, 684
   size: 64, 16
   orig: 64, 16
   offset: 0, 0
   index: -1
 gfx/platform5t-2-level1
   rotate: false
-  xy: 2, 20
+  xy: 1117, 684
   size: 80, 16
   orig: 80, 16
   offset: 0, 0
   index: -1
 gfx/platform5t-3-level1
   rotate: false
-  xy: 1862, 830
+  xy: 863, 640
   size: 80, 16
   orig: 80, 16
   offset: 0, 0
   index: -1
 gfx/platform5t-level1
   rotate: false
-  xy: 260, 330
+  xy: 710, 382
   size: 80, 16
   orig: 80, 16
   offset: 0, 0
   index: -1
+gfx/player
+  rotate: false
+  xy: 1319, 659
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+gfx/player_hp
+  rotate: false
+  xy: 960, 702
+  size: 271, 62
+  orig: 271, 62
+  offset: 0, 0
+  index: -1
+gfx/right
+  rotate: false
+  xy: 710, 400
+  size: 56, 110
+  orig: 56, 110
+  offset: 0, 0
+  index: -1
+gfx/right-mini
+  rotate: false
+  xy: 182, 38
+  size: 27, 65
+  orig: 27, 65
+  offset: 0, 0
+  index: -1
 gfx/slice
   rotate: false
-  xy: 260, 348
+  xy: 357, 128
   size: 132, 179
   orig: 132, 179
   offset: 0, 0
   index: -1
+gfx/slide
+  rotate: false
+  xy: 1680, 582
+  size: 110, 52
+  orig: 110, 52
+  offset: 0, 0
+  index: -1
+gfx/slide-mini
+  rotate: false
+  xy: 252, 2
+  size: 68, 26
+  orig: 68, 26
+  offset: 0, 0
+  index: -1
 gfx/small-column
   rotate: false
-  xy: 394, 417
+  xy: 768, 400
   size: 40, 110
   orig: 40, 110
   offset: 0, 0
   index: -1
+gfx/speed_up
+  rotate: false
+  xy: 611, 164
+  size: 65, 64
+  orig: 65, 64
+  offset: 0, 0
+  index: -1
+gfx/stamina
+  rotate: false
+  xy: 960, 670
+  size: 136, 8
+  orig: 136, 8
+  offset: 0, 0
+  index: -1
 gfx/wall-level1
   rotate: false
-  xy: 2, 38
+  xy: 211, 37
   size: 144, 270
   orig: 144, 270
   offset: 0, 0
   index: -1
-spriter/Stop/elisaStop0
+gfx/wave_message
   rotate: false
-  xy: 394, 374
-  size: 34, 41
-  orig: 34, 41
-  offset: 0, 0
-  index: -1
-gfx/player
-  rotate: false
-  xy: 394, 374
-  size: 34, 41
-  orig: 34, 41
+  xy: 260, 603
+  size: 347, 161
+  orig: 347, 161
   offset: 0, 0
   index: -1
